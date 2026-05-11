@@ -5,7 +5,7 @@ paginate: true
 style: |
   section {
     font-family: 'Segoe UI', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 20px;
   }
   section.cover {
     background: #0a0a23;
@@ -69,14 +69,14 @@ style: |
   h2 { color: #444; font-size: 26px; margin-top: 0; }
   table { font-size: 22px; width: 100%; }
   th { background: #0057b8; color: white; }
-  code { background: #f0f4f8; padding: 2px 6px; border-radius: 3px; }
-  pre { background: #f0f4f8; padding: 16px; border-radius: 6px; font-size: 18px; }
+  code { background: #f0f4f8; padding: 2px 6px; border-radius: 3px }
+  pre { background: #f0f4f8; padding: 16px; border-radius: 6px; font-size: 13px; }
 ---
 
 <!-- _class: cover -->
 
 # Feeding GenAI
-## Data Sources, Serialization and Other Tricks
+## Semantic Layer, Serialization and Other Tricks
 
 Lessons from building a retail market analytics platform
 
@@ -84,23 +84,27 @@ Lessons from building a retail market analytics platform
 
 # Agenda
 
-1. **The Platform** — What We Built
-2. **Semantic Layer** — Databricks Metric Views
-3. **Serialization** — TOON vs JSON
-4. **Structured Output** — Controlling Report Structure
-5. **Key Takeaways**
+1. **Business Context** — What are we building?
+2. **Semantic Layer** — How to deal with business metrics?
+3. **Sending Data to LLM** — Is JSON the right choice?
+4. **Move Insights Ahead** — Controlling Report Structure
+5. **Architecture** - Let's see some diagrams
 
 ---
 
-# What We Built
+# Business Context
 
-- Retail market analytics platform
-- Aggregates business metrics across multiple dimensions
-- Generates natural-language reports powered by LLMs
+One report, three data sources
 
-![bg right:40%](img/architecture.png)
+| Data Source | Dimensions | Metrics |
+|---|---|---|
+| **Sales** | Shared (*) | GMV (Gross Merchandise Value), TRD (Total Discount Rate), ... |
+| **Stock** | Shared (*) | Stock Value, Stock Quantity, ... |
+| **Site**  | Shared (*) | Page Views, Conversion Rate, ... |
 
-**Three unexpected problems — three elegant solutions**
+- **Shared dimensions:** Org Unit levels, Country, Brand, Season, Commodity Group levels, ...
+- **Hundreds of reports** are generated for various Org Units, 
+each drills down into many dimensions and combinations of dimensions.
 
 ---
 
@@ -114,20 +118,24 @@ Define business metrics once, use everywhere
 
 ---
 
-# Every Team Writes Their Own Metrics
-
-- Business metrics must be aggregated across many dimensions
-- Classic approach: custom SQL per query, per application
-- Metric definitions **diverge** between apps over time
-- A logic change must be replicated everywhere
+# Business Metrics can be complex
 
 ```sql
--- App A
-SELECT SUM(revenue) / NULLIF(SUM(units), 0) AS avg_price ...
-
--- App B (slightly different)
-SELECT AVG(unit_price) AS avg_price ...
+SELECT
+  brand_name,
+  SUM(gmv_aft_ret_provision) AS gmv,
+  SUM(nmv_discount_market_aret_provision + nmv_discount_risk_aret_provision + nmv_coupon_aret_provision) filter (where partner_flag = 0) 
+        / NULLIF(SUM(nmv_bdisc_aret_provision) filter (where partner_flag = 0), 0) * 100 AS tdr
+FROM
+  sales_data
+WHERE
+  order_date BETWEEN '2025-05-04' and '2026-05-10'
+  AND unit = 'Unit 1'
+GROUP BY ALL
 ```
+- Cannot put them in views => custom SQL per query, per application
+- Metric definitions **diverge** between apps over time
+- A logic change must be replicated everywhere
 
 > Fragile and expensive to maintain
 
@@ -138,17 +146,36 @@ SELECT AVG(unit_price) AS avg_price ...
 Databricks **Metric Views** — define business metrics in YAML
 
 ```yaml
+dimensions:
+  - name: brand_name
+    expr: brand_name
+  - name: unit
+    expr: unit
 metrics:
-  - name: avg_selling_price
-    label: Average Selling Price
-    type: ratio
-    numerator: revenue
-    denominator: units_sold
+  - name: gmv
+    expr: SUM(gmv_aft_ret_provision)
+  - name: tdr
+    expr: |
+        SUM(nmv_discount_market_aret_provision + nmv_discount_risk_aret_provision + nmv_coupon_aret_provision) filter (where partner_flag = 0) 
+        / NULLIF(SUM(nmv_bdisc_aret_provision) filter (where partner_flag = 0), 0) * 100
 ```
 
-- Platform generates SQL with the `MEASURE` aggregate function
-- Single source of truth across all consumers
-- Non-transitive expressions (averages, ratios) **work seamlessly**
+Use the `MEASURE` aggregate function
+
+```sql
+SELECT
+  brand_name,
+  MEASURE(gmv) AS gmv,
+  MEASURE(tdr) AS tdr
+FROM
+  sales_data_metric_view
+WHERE
+  order_date BETWEEN '2025-05-04' and '2026-05-10'
+  AND unit = 'Unit 1'
+GROUP BY ALL
+```
+
+> Documentation can also be added => Data Catalog
 
 ---
 
@@ -156,11 +183,12 @@ metrics:
 
 # Demo — Metric Views in Action
 
-1. Show original hand-crafted SQL
-2. Show Metric View YAML definition
-3. Show derived SQL with `MEASURE` function
+1. Original hand-crafted SQL
+2. Metric View YAML definition
+3. Derived SQL with `MEASURE` function
+4. Using JOINs
 
-**Key moment:** Highlight that weighted averages and ratios aggregate correctly across dimensions — without special casing
+**Key moment:** No need to worry about expressions and aggregations
 
 ---
 
