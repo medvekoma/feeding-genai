@@ -71,7 +71,7 @@ style: |
   table { font-size: 22px; width: 100%; }
   th { background: #0057b8; color: white; }
   code { background: #f0f4f8; padding: 2px 6px; border-radius: 3px }
-  pre { background: #f0f4f8; padding: 18px; border-radius: 6px; font-size: 13px; }
+  pre { background: #f0f4f8; padding: 18px; border-radius: 6px; font-size: 18px; }
   .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 ---
 
@@ -88,8 +88,8 @@ Lessons from building a retail market analytics platform
 
 1. **Business Context** — What are we building?
 2. **Semantic Layer** — How to deal with business metrics?
-3. **Sending Data to LLM** — Is JSON the right choice?
-4. **Move Insights Ahead** — Controlling Report Structure
+3. **Serialization** — Passing Data to the LLM
+4. **Report Structure** - Moving Insights Ahead
 5. **Architecture** - Let's see some diagrams
 
 ---
@@ -127,12 +127,24 @@ Define business metrics once, use everywhere
 
 # Business Metrics can be complex
 
+<div class="columns">
+
+<div>
+
 ```sql
 SELECT
   brand_name,
   SUM(gmv_aft_ret_provision) AS gmv,
-  SUM(nmv_discount_market_aret_provision + nmv_discount_risk_aret_provision + nmv_coupon_aret_provision) filter (where partner_flag = 0) 
-        / NULLIF(SUM(nmv_bdisc_aret_provision) filter (where partner_flag = 0), 0) * 100 AS tdr
+  SUM(
+    nmv_discount_market_aret_provision
+    + nmv_discount_risk_aret_provision
+    + nmv_coupon_aret_provision
+  ) filter (where partner_flag = 0) 
+  / 
+  NULLIF(
+    SUM(nmv_bdisc_aret_provision) 
+    filter (where partner_flag = 0)
+  , 0) * 100 AS tdr
 FROM
   sales_data
 WHERE
@@ -140,17 +152,31 @@ WHERE
   AND unit = 'Unit 1'
 GROUP BY ALL
 ```
+
+</div>
+
+<div>
+
 - Cannot put them in views => custom SQL per query, per application
 - Metric definitions **diverge** between apps over time
 - A logic change must be replicated everywhere
 
 > Fragile and expensive to maintain
 
+</div>
+
+</div>
+
 ---
 
 # Define Once, Use Everywhere
 
+<div class="columns">
+
+<div>
+
 Databricks **Metric Views** — define business metrics in YAML
+
 
 ```yaml
 dimensions:
@@ -163,9 +189,21 @@ metrics:
     expr: SUM(gmv_aft_ret_provision)
   - name: tdr
     expr: |
-        SUM(nmv_discount_market_aret_provision + nmv_discount_risk_aret_provision + nmv_coupon_aret_provision) filter (where partner_flag = 0) 
-        / NULLIF(SUM(nmv_bdisc_aret_provision) filter (where partner_flag = 0), 0) * 100
+        SUM(
+          nmv_discount_market_aret_provision
+          + nmv_discount_risk_aret_provision
+          + nmv_coupon_aret_provision
+        ) filter (where partner_flag = 0) 
+        / 
+        NULLIF(
+          SUM(nmv_bdisc_aret_provision) 
+          filter (where partner_flag = 0)
+        , 0) * 100
 ```
+
+</div>
+
+<div>
 
 Use the `MEASURE` aggregate function
 
@@ -182,20 +220,13 @@ WHERE
 GROUP BY ALL
 ```
 
+> No need to worry about expressions and aggregations
+
+</div>
+
+</div>
+
 > Documentation can also be added => Data Catalog
-
----
-
-<!-- _class: demo -->
-
-# Demo — Metric Views in Action
-
-1. Original hand-crafted SQL
-2. Metric View YAML definition
-3. Derived SQL with `MEASURE` function
-4. Using JOINs
-
-**Key moment:** No need to worry about expressions and aggregations
 
 ---
 
@@ -205,7 +236,7 @@ GROUP BY ALL
 
 # Serialization
 
-Passing Data to LLM
+Passing Data to the LLM
 
 ---
 
@@ -341,49 +372,51 @@ claude-haiku-4-5-20251001
 
 </div>
 
----
+<!--
 
-<!-- _class: demo -->
+Bugfix:
+- Failed on certain unicode characters
+- Opensource client library: Rust code with a python wrapper
+- Created a unit test that demonstrates the issue
+- Asked Claude to fix it
 
-# Demo — JSON vs TOON
-
-1. Show original JSON file — attribute repetition highlighted
-2. Show TOON-formatted equivalent — concise and scannable
-3. Show file size comparison
-
----
-
-**Bonus story:**
-
-The `toons` Python library wraps high-performance **Rust** code.
-
-It had a bug: incorrect serialization of certain Unicode characters.
-
-> Fixed it with Claude — without knowing Rust.
-
-*GenAI helped fix the tool that feeds GenAI.*
-
+Lessons learned:
+- Initially it implemented a workaround, not a proper fix
+- We are still needed :)
+-->
 ---
 
 <!-- _class: section-header -->
 
 <span class="number">03</span>
 
-# Structured Output
+# Report Structure
 
-LLM for reasoning, code for presentation
+Moving Insights Ahead
 
 ---
 
-# "Can You Move That Section?"
+# Let's start with *"Conclusions and Insights"*
 
 The report generated *Conclusions and Insights* at the end.
 
 **Customer:** "We'd like it right after the overview."
 
-Sounds trivial — it wasn't.
+Sounds trivial — it wasn't:
 
-![bg right:40%](img/report-structure.png)
+- We use a single LLM call.  
+- Conclusions and Insights depend on the full report context.  
+- If generated earlier, they become less deep and less accurate.
+
+<!--
+Because the whole report is generated in one LLM call, section order affects quality.
+
+Conclusions and Insights are strongest when the model writes them after it has produced and "seen" all earlier sections.
+If we force that section to be generated first just to place it earlier in the final document,
+it loses context and becomes more shallow.
+-->
+
+
 
 ---
 
@@ -399,18 +432,61 @@ Sounds trivial — it wasn't.
 
 # Ask for JSON, Reorder in Code
 
+<div class="columns">
+
+<div>
+
 Use **structured output** — generate the report as JSON:
 
 ```json
 {
   "title": "...",
-  "overview": "...",
-  "detailed_report": "...",
-  "conclusions_and_insights": "..."
+  "overall": "...",
+  "analysis": "...",
+  "insights": "..."
 }
 ```
 
 Then serialize to markdown **in the desired order** in application code.
+
+```python
+content = f"""
+{self.title}
+{self.overall}
+{self.insights}
+{self.analysis}
+"""
+```
+
+</div>
+
+<div>
+
+Using Pydantic.AI
+
+```python
+# Define output model
+class ReportOutputModel(BaseModel):
+    title: str = Field(
+      description="Title as md # Header.")
+    overall: str = Field(description=...)
+    analysis: str = Field(description=...)
+    insights: str = Field(description=...)
+```
+
+```python
+# Use model
+agent = Agent(
+    model=BedrockConverseModel(
+        model_name="claude_sonnet",
+    ),
+    output_type=ReportOutputModel,
+)
+```
+
+</div>
+
+</div>
 
 ---
 
@@ -420,28 +496,6 @@ Then serialize to markdown **in the desired order** in application code.
 - Conclusion quality **preserved** (written after full report generation)
 - Zero performance penalty — single LLM call
 - Order is a **presentation** concern, not a generation concern
-
----
-
-# What These Have in Common
-
-| Trick | Principle |
-|---|---|
-| Semantic Layer | Move business logic into a governed layer |
-| TOON | Respect the token budget — format is not neutral |
-| Structured Output | LLM for reasoning, code for presentation order |
-
-**Theme:** Separate concerns.
-The LLM is for reasoning, not for formatting or metric definition.
-
----
-
-# Things to Take Home
-
-- Define metrics once — use a semantic layer
-- Audit your serialization — JSON is often the wrong choice for LLM input
-- Use structured output whenever you need control over output structure
-- Claude can fix Rust bugs even if you can't read Rust
 
 ---
 
