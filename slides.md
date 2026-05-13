@@ -92,6 +92,14 @@ Lessons from building a retail market analytics platform
 4. **Report Structure** - Moving Insights Ahead
 5. **Architecture** - Let's see some diagrams
 
+<!--
+This talk explores three practical problems encountered in production: 
+
+- keeping complex business metric definitions consistent across a growing number of applications;
+- efficiently passing large volumes of structured data to an LLM without wasting its attention budget on formatting overhead;
+- and controlling the structure and order of a generated report without sacrificing the quality of its insights.
+-->
+
 ---
 
 # Business Context
@@ -215,12 +223,13 @@ SELECT
 FROM
   sales_data_metric_view
 WHERE
-  order_date BETWEEN '2025-05-04' and '2026-05-10'
+  order_date BETWEEN '2025-05-04' AND '2026-05-10'
   AND unit = 'Unit 1'
 GROUP BY ALL
 ```
 
-> No need to worry about expressions and aggregations
+- No need to worry about expressions
+- Works for non-composable metrics as well (like ratios)
 
 </div>
 
@@ -243,8 +252,8 @@ Passing Data to the LLM
 # Text Is Still the Language of LLMs
 
 - Even multi-modal models need structured data **as text**
-- Pass a dozen of datasets in the prompt
-- JSON is the default — but is it the right choice?
+- How to pass a dozen datasets in a prompt?
+- JSON is the default format — but is it the right choice?
 
 ---
 
@@ -317,7 +326,7 @@ Arguments:
   scope_type: Unit
   scope_value: YD Trend 1
   year: 2026
-  week: 17
+  week: 18
 BusinessChannel[2]{dimension,gmv,gmv_yoy,gmv_wow,gmv_share,gmv_share_yoy_diff,gmv_share_wow_diff,tdr,tdr_yoy_diff,tdr_wow_diff}:
   Wholesale,2.9M,23.3,4,84.5,0,0.3,23.2,11.5,0.1
   Partner,528.8K,23.3,1.8,15.5,0,-0.3,null,null,null
@@ -360,7 +369,7 @@ Brands.Top[5]{dimension,gmv,gmv_yoy,gmv_wow,tdr,tdr_yoy_diff,tdr_wow_diff,stock,
 
 <div>
 
-### More Accurate
+### Accuracy is maintained
 
 ```text
 claude-haiku-4-5-20251001
@@ -478,8 +487,10 @@ class ReportOutputModel(BaseModel):
 # Use model
 agent = Agent(
     model=BedrockConverseModel(
-        model_name="claude_sonnet",
+        model_name=settings.MODEL_NAME,
     ),
+    provider=BedrockProvider(
+        region_name=settings.AWS_REGION),
     output_type=ReportOutputModel,
 )
 ```
@@ -496,6 +507,16 @@ agent = Agent(
 - Conclusion quality **preserved** (written after full report generation)
 - Zero performance penalty — single LLM call
 - Order is a **presentation** concern, not a generation concern
+
+---
+
+<!-- _class: section-header -->
+
+<span class="number">04</span>
+
+# Architecture
+
+Let's see some diagrams
 
 ---
 
