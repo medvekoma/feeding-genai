@@ -1,0 +1,4652 @@
+{
+  "args": {
+    "scope_type": "Unit",
+    "scope_value": "YD Trend 1",
+    "year": 2026,
+    "week": 18
+  },
+  "sections": [
+    {
+      "name": "Overall",
+      "section": [
+        {
+          "dimension": "Overall",
+          "metrics": {
+            "gmv": {
+              "value": 3129813.407360002,
+              "yoy_diff": 245847.53500998486,
+              "yoy_percentage": 8.524633989848656,
+              "wow_diff": -232382.71028999984,
+              "wow_percentage": -6.911634603052934
+            },
+            "tdr": {
+              "value": 18.17226,
+              "yoy_diff": 6.936165000000001,
+              "wow_diff": -4.989954999999998
+            },
+            "customer_count": {
+              "value": 73551.0,
+              "yoy_percentage": 2.7593047949033194,
+              "wow_percentage": -8.30881619627007
+            },
+            "average_spending": {
+              "value": 42.55296878845974,
+              "yoy_percentage": 5.610517905363737,
+              "wow_percentage": 1.5237905491632464
+            },
+            "gmv_per_skus_sold": {
+              "value": 359.9969412652406,
+              "yoy_percentage": -3.5461413803127977,
+              "wow_percentage": -3.7101828830521106
+            },
+            "stock": {
+              "value": 18588029.0,
+              "yoy_percentage": -2.9919484695370246
+            },
+            "traffic": {
+              "value": 3788779.0,
+              "wow_percentage": -5.260582352585219
+            },
+            "conversion_rate": {
+              "value": 1.429405093303146,
+              "wow_diff": -0.080462733874475
+            },
+            "twar": {
+              "value": 79.87450885266249,
+              "yoy_diff": -0.3428897726514606,
+              "wow_diff": -1.0427658981359258
+            },
+            "offered_skus": {
+              "value": 12655.0,
+              "yoy_percentage": 20.523809523809526,
+              "wow_percentage": -0.1971608832807571
+            },
+            "gmv_per_skus_offered": {
+              "value": 247.31832535440552,
+              "yoy_percentage": -9.955854848406883,
+              "wow_percentage": -6.727738187808074
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "BusinessChannel",
+      "section": [
+        {
+          "dimension": "Wholesale",
+          "metrics": {
+            "gmv": {
+              "value": 2628432.5189300003,
+              "yoy_diff": 164772.01200999692,
+              "yoy_percentage": 6.688097306718209,
+              "wow_diff": -208840.14954000013,
+              "wow_percentage": -7.360594977733219
+            },
+            "gmv_share": {
+              "value": 83.98048627272911,
+              "yoy_diff": -1.445646211719648,
+              "wow_diff": -0.40699646736477746
+            },
+            "tdr": {
+              "value": 18.17226,
+              "yoy_diff": 6.936165000000001,
+              "wow_diff": -4.989954999999998
+            }
+          }
+        },
+        {
+          "dimension": "Partner",
+          "metrics": {
+            "gmv": {
+              "value": 501380.8884300001,
+              "yoy_diff": 81075.52299999894,
+              "yoy_percentage": 19.289671193479325,
+              "wow_diff": -23542.560750000004,
+              "wow_percentage": -4.484951241324159
+            },
+            "gmv_share": {
+              "value": 16.01951372727089,
+              "yoy_diff": 1.4456462117196534,
+              "wow_diff": 0.4069964673647597
+            },
+            "tdr": {}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brands.Top",
+      "section": [
+        {
+          "dimension": "Steve Madden",
+          "metrics": {
+            "gmv": {
+              "value": 489205.36357000005,
+              "yoy_diff": 71404.86784999905,
+              "yoy_percentage": 17.090661351884258,
+              "wow_diff": 5558.660710000142,
+              "wow_percentage": 1.1493225689598456
+            },
+            "tdr": {
+              "value": 21.431043,
+              "yoy_diff": 9.877059,
+              "wow_diff": -3.6681060000000016
+            },
+            "stock": {
+              "value": 2598501.0,
+              "yoy_percentage": 8.584684738895408
+            }
+          }
+        },
+        {
+          "dimension": "ALDO",
+          "metrics": {
+            "gmv": {
+              "value": 481314.7780800001,
+              "yoy_diff": 63537.65528999845,
+              "yoy_percentage": 15.208505163155156,
+              "wow_diff": -48630.64989,
+              "wow_percentage": -9.176539191268002
+            },
+            "tdr": {
+              "value": 14.554094,
+              "yoy_diff": 4.394086999999999,
+              "wow_diff": -4.532579000000002
+            },
+            "stock": {
+              "value": 2219559.0,
+              "yoy_percentage": 7.200369769864626
+            }
+          }
+        },
+        {
+          "dimension": "Dr. Martens",
+          "metrics": {
+            "gmv": {
+              "value": 465571.2888499999,
+              "yoy_diff": 38655.39637999929,
+              "yoy_percentage": 9.054569544448526,
+              "wow_diff": -92942.12069999997,
+              "wow_percentage": -16.640982850328413
+            },
+            "tdr": {
+              "value": 21.987916,
+              "yoy_diff": 8.412628999999999,
+              "wow_diff": -7.596718000000003
+            },
+            "stock": {
+              "value": 5370130.0,
+              "yoy_percentage": 20.66731680133742
+            }
+          }
+        },
+        {
+          "dimension": "Buffalo",
+          "metrics": {
+            "gmv": {
+              "value": 401393.87618,
+              "yoy_diff": 87405.09617999988,
+              "yoy_percentage": 27.837012577328345,
+              "wow_diff": -20536.63586000004,
+              "wow_percentage": -4.8673028553225635
+            },
+            "tdr": {
+              "value": 18.983732,
+              "yoy_diff": -2.417656000000001,
+              "wow_diff": -4.739716000000001
+            },
+            "stock": {
+              "value": 997210.0,
+              "yoy_percentage": -2.194808098957618
+            }
+          }
+        },
+        {
+          "dimension": "Vagabond",
+          "metrics": {
+            "gmv": {
+              "value": 294713.05991,
+              "yoy_diff": 16394.434679999657,
+              "yoy_percentage": 5.890527328687192,
+              "wow_diff": -50454.26198999985,
+              "wow_percentage": -14.61733448933419
+            },
+            "tdr": {
+              "value": 14.867642,
+              "yoy_diff": 12.854912,
+              "wow_diff": -6.347707
+            },
+            "stock": {
+              "value": 1437691.0,
+              "yoy_percentage": -43.841336035361785
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brands.DrivingChange",
+      "section": [
+        {
+          "dimension": "PARFOIS",
+          "metrics": {
+            "gmv": {
+              "value": 24029.64742,
+              "yoy_diff": -73821.5092499998,
+              "yoy_percentage": -75.44265368161227,
+              "wow_diff": -3681.8148899999906,
+              "wow_percentage": -13.286252630094394
+            },
+            "tdr": {
+              "value": 32.389657,
+              "yoy_diff": 24.919556,
+              "wow_diff": -4.074193000000001
+            },
+            "stock": {
+              "value": 208544.0,
+              "yoy_percentage": -71.10318213625058
+            }
+          }
+        },
+        {
+          "dimension": "ALOHAS",
+          "metrics": {
+            "gmv": {
+              "value": 58788.426200000016,
+              "yoy_diff": 43991.176200000016,
+              "yoy_percentage": 297.2929172650325,
+              "wow_diff": -5553.560919999982,
+              "wow_percentage": -8.631317073938673
+            },
+            "tdr": {
+              "value": 15.716831,
+              "yoy_diff": 3.063899000000001,
+              "wow_diff": -0.24234699999999876
+            },
+            "stock": {
+              "value": 150055.0,
+              "yoy_percentage": 65.72605584025446
+            }
+          }
+        },
+        {
+          "dimension": "Call it Spring",
+          "metrics": {
+            "gmv": {
+              "value": 158353.94372,
+              "yoy_diff": 23815.133720000158,
+              "yoy_percentage": 17.701311405980313,
+              "wow_diff": -12293.273199999967,
+              "wow_percentage": -7.203910747494404
+            },
+            "tdr": {
+              "value": 13.630346,
+              "yoy_diff": 7.555796999999999,
+              "wow_diff": -2.7100940000000016
+            },
+            "stock": {
+              "value": 840251.0,
+              "yoy_percentage": 35.83831662536152
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.ALDO.CG3",
+      "section": [
+        {
+          "dimension": "Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 91327.27076000003,
+              "yoy_diff": 31063.280760000052,
+              "yoy_percentage": 51.54534367870443,
+              "wow_diff": -23772.99626999999,
+              "wow_percentage": -20.654162569235165
+            },
+            "tdr": {
+              "value": 14.7884,
+              "yoy_diff": 7.8209159999999995,
+              "wow_diff": -7.235137000000002
+            }
+          }
+        },
+        {
+          "dimension": "Jewellery",
+          "metrics": {
+            "gmv": {
+              "value": 12044.88541,
+              "yoy_diff": -25798.54417999999,
+              "yoy_percentage": -68.1717921961734,
+              "wow_diff": -235.9111099999991,
+              "wow_percentage": -1.9209756436873127
+            },
+            "tdr": {
+              "value": 15.200061,
+              "yoy_diff": 9.270942999999999,
+              "wow_diff": -3.6592399999999987
+            }
+          }
+        },
+        {
+          "dimension": "Bags & Luggage",
+          "metrics": {
+            "gmv": {
+              "value": 128432.44999999998,
+              "yoy_diff": 21733.480000000098,
+              "yoy_percentage": 20.368968885079322,
+              "wow_diff": -12287.694090000005,
+              "wow_percentage": -8.732007893725008
+            },
+            "tdr": {
+              "value": 13.312655,
+              "yoy_diff": 5.68786,
+              "wow_diff": -2.572439000000001
+            }
+          }
+        },
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 70651.69739,
+              "yoy_diff": 17162.817640000016,
+              "yoy_percentage": 32.086702357979405,
+              "wow_diff": -6024.2413600000145,
+              "wow_percentage": -7.856755923969712
+            },
+            "tdr": {
+              "value": 16.141199,
+              "yoy_diff": 6.574453,
+              "wow_diff": -3.3931439999999995
+            }
+          }
+        },
+        {
+          "dimension": "Heeled Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 79168.31762,
+              "yoy_diff": 13447.167620000037,
+              "yoy_percentage": 20.460943881840237,
+              "wow_diff": 419.31866000000446,
+              "wow_percentage": 0.5324749083007321
+            },
+            "tdr": {
+              "value": 4.521447,
+              "yoy_diff": -2.326829,
+              "wow_diff": -1.9500099999999998
+            }
+          }
+        },
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 51024.95136,
+              "yoy_diff": 3495.1213599999974,
+              "yoy_percentage": 7.3535322133489585,
+              "wow_diff": -11356.320749999999,
+              "wow_percentage": -18.204695681702088
+            },
+            "tdr": {
+              "value": 26.616552,
+              "yoy_diff": -0.3103320000000025,
+              "wow_diff": -3.7585150000000027
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 27943.70387,
+              "yoy_diff": -5473.576129999998,
+              "yoy_percentage": -16.379478311819508,
+              "wow_diff": 4475.916600000004,
+              "wow_percentage": 19.072597465214727
+            },
+            "tdr": {
+              "value": 4.997125,
+              "yoy_diff": -1.2663150000000005,
+              "wow_diff": 0.2654129999999997
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.ALDO.Market",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 115180.31277,
+              "yoy_diff": 21093.50277000011,
+              "yoy_percentage": 22.419192201329956,
+              "wow_diff": -8891.851019999987,
+              "wow_percentage": -7.16667683417693
+            },
+            "tdr": {
+              "value": 15.166273,
+              "yoy_diff": 9.688627,
+              "wow_diff": -3.268909999999998
+            }
+          }
+        },
+        {
+          "dimension": "FR",
+          "metrics": {
+            "gmv": {
+              "value": 50627.86696000001,
+              "yoy_diff": 12830.446960000008,
+              "yoy_percentage": 33.945298276972366,
+              "wow_diff": 5956.554650000013,
+              "wow_percentage": 13.334183264337627
+            },
+            "tdr": {
+              "value": 16.213346,
+              "yoy_diff": 8.565700000000001,
+              "wow_diff": 5.974524000000001
+            }
+          }
+        },
+        {
+          "dimension": "CH",
+          "metrics": {
+            "gmv": {
+              "value": 57839.67793999999,
+              "yoy_diff": 9862.234490000003,
+              "yoy_percentage": 20.5559816880989,
+              "wow_diff": -1448.9438100000189,
+              "wow_percentage": -2.443881755439894
+            },
+            "tdr": {
+              "value": 4.30086,
+              "yoy_diff": -0.1958169999999999,
+              "wow_diff": -1.0813509999999997
+            }
+          }
+        },
+        {
+          "dimension": "NO",
+          "metrics": {
+            "gmv": {
+              "value": 17678.870790000004,
+              "yoy_diff": 3966.9507900000044,
+              "yoy_percentage": 28.93067338490893,
+              "wow_diff": -1190.6380599999939,
+              "wow_percentage": -6.309851885731482
+            },
+            "tdr": {
+              "value": 12.312642,
+              "yoy_diff": -5.778037000000001,
+              "wow_diff": -11.465747
+            }
+          }
+        },
+        {
+          "dimension": "PL",
+          "metrics": {
+            "gmv": {
+              "value": 25773.090990000004,
+              "yoy_diff": 3567.2516500000092,
+              "yoy_percentage": 16.064475633552025,
+              "wow_diff": -9240.228349999998,
+              "wow_percentage": -26.390609414297245
+            },
+            "tdr": {
+              "value": 13.245027,
+              "yoy_diff": 4.548815000000001,
+              "wow_diff": -16.127162
+            }
+          }
+        },
+        {
+          "dimension": "NL",
+          "metrics": {
+            "gmv": {
+              "value": 26344.65205,
+              "yoy_diff": 1534.0220499999887,
+              "yoy_percentage": 6.18292260212654,
+              "wow_diff": -7618.295450000009,
+              "wow_percentage": -22.43119637952509
+            },
+            "tdr": {
+              "value": 14.285756,
+              "yoy_diff": 9.204528,
+              "wow_diff": -9.116539
+            }
+          }
+        },
+        {
+          "dimension": "RO",
+          "metrics": {
+            "gmv": {
+              "value": 5743.25658,
+              "yoy_diff": -432.6334199999992,
+              "yoy_percentage": -7.0051995744742745,
+              "wow_diff": -6217.553050000001,
+              "wow_percentage": -51.982710555021185
+            },
+            "tdr": {
+              "value": 27.454246,
+              "yoy_diff": 6.396949000000003,
+              "wow_diff": -11.576193999999997
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.ALDO.Products",
+      "section": [
+        {
+          "dimension": "ULIANA",
+          "metrics": {
+            "gmv": {
+              "value": 1314.57885,
+              "yoy_diff": -266.52115000000003,
+              "yoy_percentage": -16.856691543861867,
+              "wow_diff": -3224.3502500000004,
+              "wow_percentage": -71.03768706147008
+            },
+            "tdr": {
+              "value": 3.984935,
+              "yoy_diff": 0.666111,
+              "wow_diff": -15.811937
+            }
+          }
+        },
+        {
+          "dimension": "CLAUDIE",
+          "metrics": {
+            "gmv": {
+              "value": 719.84751,
+              "yoy_diff": -218.21249000000012,
+              "yoy_percentage": -23.26210370338785,
+              "wow_diff": -2327.5517999999997,
+              "wow_percentage": -76.37830042036728
+            },
+            "tdr": {
+              "value": 24.071494,
+              "yoy_diff": 11.860638,
+              "wow_diff": -11.201779
+            }
+          }
+        },
+        {
+          "dimension": "LILYNA",
+          "metrics": {
+            "gmv": {
+              "value": 1984.8734800000002,
+              "wow_diff": 1854.6224200000001,
+              "wow_percentage": 1423.8827845239798
+            },
+            "tdr": {
+              "value": 0.462962,
+              "wow_diff": 0.462962
+            }
+          }
+        },
+        {
+          "dimension": "MARTISSA",
+          "metrics": {
+            "gmv": {
+              "value": 2924.14979,
+              "yoy_diff": -3177.1202099999987,
+              "yoy_percentage": -52.07309642090908,
+              "wow_diff": -468.68217000000004,
+              "wow_percentage": -13.81389280475889
+            },
+            "tdr": {
+              "value": 16.933282,
+              "yoy_diff": 12.938811,
+              "wow_diff": -1.372579
+            }
+          }
+        },
+        {
+          "dimension": "BAROSTRAW",
+          "metrics": {
+            "gmv": {
+              "value": 2120.2901899999997,
+              "yoy_diff": -3181.6198099999992,
+              "yoy_percentage": -60.008936590775775,
+              "wow_diff": -102.98870000000079,
+              "wow_percentage": -4.632288844338407
+            },
+            "tdr": {
+              "value": 15.653569,
+              "yoy_diff": 14.631911,
+              "wow_diff": -1.290177
+            }
+          }
+        },
+        {
+          "dimension": "KAILAYA  PILLOW WALK",
+          "metrics": {
+            "gmv": {
+              "value": 23.02479,
+              "yoy_diff": -2124.51521,
+              "yoy_percentage": -98.92785279901655
+            },
+            "tdr": {
+              "value": 19.99973,
+              "yoy_diff": 17.28417
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.ALOHAS.CG3",
+      "section": [
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 33018.8678,
+              "yoy_diff": 27541.627800000002,
+              "yoy_percentage": 502.83770293067323,
+              "wow_diff": -2972.686459999997,
+              "wow_percentage": -8.259400076266662
+            },
+            "tdr": {
+              "value": 20.180566,
+              "yoy_diff": 15.124965,
+              "wow_diff": -0.5183800000000005
+            }
+          }
+        },
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 23005.702449999997,
+              "yoy_diff": 17795.662449999996,
+              "yoy_percentage": 341.5647950879455,
+              "wow_diff": -3797.1317700000036,
+              "wow_percentage": -14.166903913342951
+            },
+            "tdr": {
+              "value": 7.108809,
+              "yoy_diff": -6.823173,
+              "wow_diff": -0.14071100000000047
+            }
+          }
+        },
+        {
+          "dimension": "Heeled Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 647.1848500000001,
+              "yoy_diff": -1339.1751500000003,
+              "yoy_percentage": -67.4185520248092,
+              "wow_diff": 288.5148200000001,
+              "wow_percentage": 80.4401806306482
+            },
+            "tdr": {
+              "value": 39.067091,
+              "yoy_diff": 21.118263,
+              "wow_diff": -17.922917000000005
+            }
+          }
+        },
+        {
+          "dimension": "Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 67.35341,
+              "yoy_diff": -878.6165900000001,
+              "yoy_percentage": -92.87996342378723,
+              "wow_diff": 41.1059,
+              "wow_percentage": 156.60876022144578
+            },
+            "tdr": {
+              "value": 20.007143,
+              "yoy_diff": 5.858913999999999,
+              "wow_diff": -10.001698000000001
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 1785.8319,
+              "yoy_diff": 753.1418999999999,
+              "yoy_percentage": 72.93010487174271,
+              "wow_diff": 742.2068799999997,
+              "wow_percentage": 71.11815697941005
+            },
+            "tdr": {
+              "value": 10.344803,
+              "yoy_diff": -9.831977,
+              "wow_diff": -2.969092999999999
+            }
+          }
+        },
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 211.8256,
+              "yoy_diff": 66.87560000000002,
+              "yoy_percentage": 46.13701276302175,
+              "wow_diff": 92.76952000000001,
+              "wow_percentage": 77.92085880872276
+            },
+            "tdr": {
+              "value": 40.462024,
+              "yoy_diff": -9.546598000000003,
+              "wow_diff": 20.461903
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.ALOHAS.Market",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 13026.768320000005,
+              "yoy_diff": 9372.908320000006,
+              "yoy_percentage": 256.5207293109207,
+              "wow_diff": 97.91755000000558,
+              "wow_percentage": 0.7573569510695619
+            },
+            "tdr": {
+              "value": 17.546695,
+              "yoy_diff": 13.900763999999999,
+              "wow_diff": 1.551473999999999
+            }
+          }
+        },
+        {
+          "dimension": "FR",
+          "metrics": {
+            "gmv": {
+              "value": 5411.09878,
+              "yoy_diff": 4832.33878,
+              "yoy_percentage": 834.9469175478611,
+              "wow_diff": 1195.4528400000008,
+              "wow_percentage": 28.35752473083641
+            },
+            "tdr": {
+              "value": 15.526148,
+              "yoy_diff": -12.106238000000001,
+              "wow_diff": 9.105863
+            }
+          }
+        },
+        {
+          "dimension": "NL",
+          "metrics": {
+            "gmv": {
+              "value": 5797.45857,
+              "yoy_diff": 4597.83857,
+              "yoy_percentage": 383.274584451743,
+              "wow_diff": -543.8921300000011,
+              "wow_percentage": -8.576912959568709
+            },
+            "tdr": {
+              "value": 12.072852,
+              "yoy_diff": 6.560879999999999,
+              "wow_diff": -9.997570000000001
+            }
+          }
+        },
+        {
+          "dimension": "CH",
+          "metrics": {
+            "gmv": {
+              "value": 6983.439419999999,
+              "yoy_diff": 4324.539419999998,
+              "yoy_percentage": 162.64392869231628,
+              "wow_diff": -1868.2686699999995,
+              "wow_percentage": -21.106306839361665
+            },
+            "tdr": {
+              "value": 7.7028,
+              "yoy_diff": -1.9114950000000004,
+              "wow_diff": -1.097187
+            }
+          }
+        },
+        {
+          "dimension": "DK",
+          "metrics": {
+            "gmv": {
+              "value": 4288.64412,
+              "yoy_diff": 3523.08412,
+              "yoy_percentage": 460.1969956633053,
+              "wow_diff": 361.0149200000001,
+              "wow_percentage": 9.191675222294409
+            },
+            "tdr": {
+              "value": 9.468325,
+              "yoy_diff": 4.405881,
+              "wow_diff": 0.5296330000000005
+            }
+          }
+        },
+        {
+          "dimension": "SE",
+          "metrics": {
+            "gmv": {
+              "value": 2254.0425200000004,
+              "yoy_diff": 2076.76252,
+              "yoy_percentage": 1171.4590027075812,
+              "wow_diff": -2144.25217,
+              "wow_percentage": -48.75189865915965
+            },
+            "tdr": {
+              "value": 30.11979,
+              "yoy_diff": 30.119747999999998,
+              "wow_diff": 11.553714999999997
+            }
+          }
+        },
+        {
+          "dimension": "NO",
+          "metrics": {
+            "gmv": {
+              "value": 3496.13719,
+              "yoy_diff": 3193.8171899999998,
+              "yoy_percentage": 1056.4359585869277,
+              "wow_diff": -1535.9509600000015,
+              "wow_percentage": -30.52313302579966
+            },
+            "tdr": {
+              "value": 25.048294,
+              "yoy_diff": 25.048294,
+              "wow_diff": 7.550697999999997
+            }
+          }
+        },
+        {
+          "dimension": "AT",
+          "metrics": {
+            "gmv": {
+              "value": 3230.25378,
+              "yoy_diff": 2920.35378,
+              "yoy_percentage": 942.3535914811231,
+              "wow_diff": 1075.8516400000003,
+              "wow_percentage": 49.93736406147464
+            },
+            "tdr": {
+              "value": 10.154639,
+              "yoy_diff": 10.154639,
+              "wow_diff": -0.4544680000000003
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.ALOHAS.Products",
+      "section": [
+        {
+          "dimension": "Tb.490 Crochet Cream Leather Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 3268.1737800000005,
+              "yoy_diff": 3108.1737800000005,
+              "yoy_percentage": 1942.6086125000004,
+              "wow_diff": 1871.8676000000007,
+              "wow_percentage": 134.05853435383355
+            },
+            "tdr": {
+              "value": 28.664027,
+              "wow_diff": -0.44777
+            }
+          }
+        },
+        {
+          "dimension": "Tb.490 Club Onix Cream Leather Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 1431.4159700000002,
+              "yoy_diff": 1431.4159700000002,
+              "wow_diff": -1555.4407099999996,
+              "wow_percentage": -52.07617494388782
+            },
+            "tdr": {
+              "value": 29.670272,
+              "wow_diff": -6.186461
+            }
+          }
+        },
+        {
+          "dimension": "Tb.490 Rife Shimmer Silver Cream Leather Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 1030.1806800000002,
+              "yoy_diff": -97.19931999999994,
+              "yoy_percentage": -8.621699870496188,
+              "wow_diff": -1251.69032,
+              "wow_percentage": -54.853684542202416
+            },
+            "tdr": {
+              "value": 15.898185,
+              "yoy_diff": 12.146526,
+              "wow_diff": 14.264178
+            }
+          }
+        },
+        {
+          "dimension": "Tb.490 Club Suede Raspberry Leather Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 2397.3756799999996,
+              "yoy_diff": 2253.4156799999996,
+              "yoy_percentage": 1565.3068074465123,
+              "wow_diff": 171.4737799999998,
+              "wow_percentage": 7.703564114842609
+            },
+            "tdr": {
+              "value": 26.696228,
+              "yoy_diff": 6.696225,
+              "wow_diff": 8.941644
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Buffalo.CG3",
+      "section": [
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 214982.37055,
+              "yoy_diff": 49097.260550000065,
+              "yoy_percentage": 29.597147417269753,
+              "wow_diff": -7089.265400000033,
+              "wow_percentage": -3.1923326766486277
+            },
+            "tdr": {
+              "value": 21.560824,
+              "yoy_diff": -2.751249999999999,
+              "wow_diff": -3.7410120000000013
+            }
+          }
+        },
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 32593.437909999997,
+              "yoy_diff": 15579.50791,
+              "yoy_percentage": 91.5691313529561,
+              "wow_diff": -2570.7930700000034,
+              "wow_percentage": -7.310818403684605
+            },
+            "tdr": {
+              "value": 15.722821,
+              "yoy_diff": -1.8488520000000008,
+              "wow_diff": -6.32986
+            }
+          }
+        },
+        {
+          "dimension": "Heeled Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 64672.19698999998,
+              "yoy_diff": 15081.996989999985,
+              "yoy_percentage": 30.413261067710927,
+              "wow_diff": 6427.586339999987,
+              "wow_percentage": 11.035504003321872
+            },
+            "tdr": {
+              "value": 4.679513,
+              "yoy_diff": -2.129804,
+              "wow_diff": -0.3783820000000002
+            }
+          }
+        },
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 45404.032380000004,
+              "yoy_diff": 10619.052380000001,
+              "yoy_percentage": 30.527694366936537,
+              "wow_diff": -18928.797700000003,
+              "wow_percentage": -29.423231772116065
+            },
+            "tdr": {
+              "value": 25.556344,
+              "yoy_diff": -4.911358,
+              "wow_diff": -7.269515000000002
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 31802.579960000003,
+              "yoy_diff": -8690.190039999987,
+              "yoy_percentage": -21.46109056011725,
+              "wow_diff": 2889.201699999998,
+              "wow_percentage": 9.99261198058285
+            },
+            "tdr": {
+              "value": 4.149429,
+              "yoy_diff": -6.471986000000001,
+              "wow_diff": -1.005058
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Buffalo.Market",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 103656.44743999999,
+              "yoy_diff": 28229.837440000032,
+              "yoy_percentage": 37.42689408949978,
+              "wow_diff": 1510.476309999969,
+              "wow_percentage": 1.4787429139790575
+            },
+            "tdr": {
+              "value": 23.542083,
+              "yoy_diff": 4.149326000000002,
+              "wow_diff": -0.5246639999999978
+            }
+          }
+        },
+        {
+          "dimension": "FR",
+          "metrics": {
+            "gmv": {
+              "value": 40842.12039,
+              "yoy_diff": 10908.120389999993,
+              "yoy_percentage": 36.440570555221456,
+              "wow_diff": 15630.722430000002,
+              "wow_percentage": 61.99863432721763
+            },
+            "tdr": {
+              "value": 16.646044,
+              "yoy_diff": -2.7794510000000017,
+              "wow_diff": 4.23743
+            }
+          }
+        },
+        {
+          "dimension": "IT",
+          "metrics": {
+            "gmv": {
+              "value": 44091.08830999999,
+              "yoy_diff": 7773.548309999998,
+              "yoy_percentage": 21.40439112891457,
+              "wow_diff": -3253.9459900000147,
+              "wow_percentage": -6.872834792729286
+            },
+            "tdr": {
+              "value": 24.839867,
+              "yoy_diff": 0.5270570000000028,
+              "wow_diff": -3.4274919999999973
+            }
+          }
+        },
+        {
+          "dimension": "CH",
+          "metrics": {
+            "gmv": {
+              "value": 37843.483290000004,
+              "yoy_diff": 6894.0532900000035,
+              "yoy_percentage": 22.275218929718587,
+              "wow_diff": -5661.430930000002,
+              "wow_percentage": -13.013313625607239
+            },
+            "tdr": {
+              "value": 9.207673,
+              "yoy_diff": -11.166293,
+              "wow_diff": -1.471134000000001
+            }
+          }
+        },
+        {
+          "dimension": "PL",
+          "metrics": {
+            "gmv": {
+              "value": 20076.482340000002,
+              "yoy_diff": 6510.272340000001,
+              "yoy_percentage": 47.988880755937004,
+              "wow_diff": -10032.751909999999,
+              "wow_percentage": -33.32117923258045
+            },
+            "tdr": {
+              "value": 16.301467,
+              "yoy_diff": -6.688105,
+              "wow_diff": -14.142229
+            }
+          }
+        },
+        {
+          "dimension": "NL",
+          "metrics": {
+            "gmv": {
+              "value": 18021.028490000004,
+              "yoy_diff": 2680.428490000004,
+              "yoy_percentage": 17.472774793684756,
+              "wow_diff": -7870.096639999989,
+              "wow_percentage": -30.396889283428337
+            },
+            "tdr": {
+              "value": 15.154169,
+              "yoy_diff": -2.696624,
+              "wow_diff": -14.081419
+            }
+          }
+        },
+        {
+          "dimension": "NO",
+          "metrics": {
+            "gmv": {
+              "value": 10314.489100000003,
+              "yoy_diff": 965.7191000000021,
+              "yoy_percentage": 10.329905431409715,
+              "wow_diff": -4221.692709999999,
+              "wow_percentage": -29.04265208829277
+            },
+            "tdr": {
+              "value": 12.804014,
+              "yoy_diff": -5.831946,
+              "wow_diff": -5.517677000000001
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Buffalo.Products",
+      "section": [
+        {
+          "dimension": "BESU",
+          "metrics": {
+            "gmv": {
+              "value": 8831.0515,
+              "wow_diff": 4495.028329999999,
+              "wow_percentage": 103.66707357793015
+            },
+            "tdr": {
+              "value": 5.275212,
+              "wow_diff": 2.840327
+            }
+          }
+        },
+        {
+          "dimension": "BESU",
+          "metrics": {
+            "gmv": {
+              "value": 6159.77978,
+              "wow_diff": 2664.11262,
+              "wow_percentage": 76.21185021516752
+            },
+            "tdr": {
+              "value": 4.948779,
+              "wow_diff": -4.054991
+            }
+          }
+        },
+        {
+          "dimension": "BINARY GHILLIE",
+          "metrics": {
+            "gmv": {
+              "value": 3055.254149999999,
+              "yoy_diff": 1230.9741499999986,
+              "yoy_percentage": 67.47725952156459,
+              "wow_diff": -2481.11844,
+              "wow_percentage": -44.814874715648436
+            },
+            "tdr": {
+              "value": 3.175508,
+              "yoy_diff": 2.437701,
+              "wow_diff": 0.999165
+            }
+          }
+        },
+        {
+          "dimension": "APRIL NEAT",
+          "metrics": {
+            "gmv": {
+              "value": 3463.1206100000004,
+              "yoy_diff": 3113.2606100000003,
+              "yoy_percentage": 889.8589750185787,
+              "wow_diff": 1231.4856200000008,
+              "wow_percentage": 55.18311128469988
+            },
+            "tdr": {}
+          }
+        },
+        {
+          "dimension": "TRIPLET HOLLOW",
+          "metrics": {
+            "gmv": {
+              "value": 137.14095,
+              "yoy_diff": -4098.13905,
+              "yoy_percentage": -96.76193899812999,
+              "wow_diff": -142.63183,
+              "wow_percentage": -50.98131061928184
+            },
+            "tdr": {
+              "value": 0.0,
+              "yoy_diff": -30.705232,
+              "wow_diff": -15.8745
+            }
+          }
+        },
+        {
+          "dimension": "RSE V2",
+          "metrics": {
+            "gmv": {
+              "value": 45.53455,
+              "yoy_diff": -2900.64545,
+              "yoy_percentage": -98.45445458186533,
+              "wow_diff": -140.6425,
+              "wow_percentage": -75.5423399393212
+            },
+            "tdr": {
+              "value": 20.001815,
+              "yoy_diff": -10.08269,
+              "wow_diff": -1e-6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Call it Spring.CG3",
+      "section": [
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 26682.59244,
+              "yoy_diff": 9942.832439999998,
+              "yoy_percentage": 59.396505326241225,
+              "wow_diff": -3404.1739000000016,
+              "wow_percentage": -11.314522343579982
+            },
+            "tdr": {
+              "value": 23.214267,
+              "yoy_diff": 13.244188999999999,
+              "wow_diff": -3.026724999999999
+            }
+          }
+        },
+        {
+          "dimension": "Bags & Luggage",
+          "metrics": {
+            "gmv": {
+              "value": 41739.09336999999,
+              "yoy_diff": 7374.273369999981,
+              "yoy_percentage": 21.458786543913163,
+              "wow_diff": -2443.546480000019,
+              "wow_percentage": -5.530557903049377
+            },
+            "tdr": {
+              "value": 14.697742,
+              "yoy_diff": 8.867987,
+              "wow_diff": -2.260173
+            }
+          }
+        },
+        {
+          "dimension": "Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 26954.33754,
+              "yoy_diff": 6077.497539999997,
+              "yoy_percentage": 29.11119470188015,
+              "wow_diff": -4629.037329999992,
+              "wow_percentage": -14.656563299690188
+            },
+            "tdr": {
+              "value": 11.275563,
+              "yoy_diff": 7.365728,
+              "wow_diff": -1.391997
+            }
+          }
+        },
+        {
+          "dimension": "Heeled Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 31063.84542,
+              "yoy_diff": -5196.18457999999,
+              "yoy_percentage": -14.330337233587484,
+              "wow_diff": -971.9401799999905,
+              "wow_percentage": -3.0339202295073133
+            },
+            "tdr": {
+              "value": 6.681016,
+              "yoy_diff": 2.377249,
+              "wow_diff": -0.8391670000000007
+            }
+          }
+        },
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 15513.18755,
+              "yoy_diff": 4908.40755,
+              "yoy_percentage": 46.284859751923186,
+              "wow_diff": -1757.553890000001,
+              "wow_percentage": -10.176481977371326
+            },
+            "tdr": {
+              "value": 11.10638,
+              "yoy_diff": 6.036675,
+              "wow_diff": -4.075912000000001
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 14294.728869999997,
+              "yoy_diff": -555.1011300000082,
+              "yoy_percentage": -3.7380975405106187,
+              "wow_diff": 1607.4667899999913,
+              "wow_percentage": 12.669926575679208
+            },
+            "tdr": {
+              "value": 4.609432,
+              "yoy_diff": -4.033612,
+              "wow_diff": -1.4303689999999998
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Call it Spring.Market",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 41982.475000000006,
+              "yoy_diff": 9384.744999999999,
+              "yoy_percentage": 28.789566021928515,
+              "wow_diff": -5374.715899999996,
+              "wow_percentage": -11.349313162069324
+            },
+            "tdr": {
+              "value": 15.220576,
+              "yoy_diff": 13.298886,
+              "wow_diff": -3.698725999999999
+            }
+          }
+        },
+        {
+          "dimension": "BE",
+          "metrics": {
+            "gmv": {
+              "value": 8606.180419999999,
+              "yoy_diff": -2924.519580000002,
+              "yoy_percentage": -25.362897135473144,
+              "wow_diff": -464.71518000000106,
+              "wow_percentage": -5.123145502854217
+            },
+            "tdr": {
+              "value": 13.343478,
+              "yoy_diff": 0.911541999999999,
+              "wow_diff": -6.392805000000001
+            }
+          }
+        },
+        {
+          "dimension": "PL",
+          "metrics": {
+            "gmv": {
+              "value": 7954.0154299999995,
+              "yoy_diff": 2774.695429999999,
+              "yoy_percentage": 53.57258153580003,
+              "wow_diff": -1142.757740000001,
+              "wow_percentage": -12.562231888651137
+            },
+            "tdr": {
+              "value": 13.613111,
+              "yoy_diff": 7.513571,
+              "wow_diff": -7.849511
+            }
+          }
+        },
+        {
+          "dimension": "FR",
+          "metrics": {
+            "gmv": {
+              "value": 13433.122629999996,
+              "yoy_diff": 2355.1126299999924,
+              "yoy_percentage": 21.259347391814877,
+              "wow_diff": 1838.0162699999964,
+              "wow_percentage": 15.851655111510304
+            },
+            "tdr": {
+              "value": 13.084588,
+              "yoy_diff": 10.909707000000001,
+              "wow_diff": 7.733965
+            }
+          }
+        },
+        {
+          "dimension": "NL",
+          "metrics": {
+            "gmv": {
+              "value": 8421.392319999999,
+              "yoy_diff": 1947.0323199999975,
+              "yoy_percentage": 30.07296968348991,
+              "wow_diff": -1532.8867599999994,
+              "wow_percentage": -15.39927449974609
+            },
+            "tdr": {
+              "value": 12.829759,
+              "yoy_diff": 12.0742,
+              "wow_diff": -6.053384000000001
+            }
+          }
+        },
+        {
+          "dimension": "ES",
+          "metrics": {
+            "gmv": {
+              "value": 5285.233799999999,
+              "yoy_diff": 1796.7337999999986,
+              "yoy_percentage": 51.50448043571731,
+              "wow_diff": 1696.1147799999994,
+              "wow_percentage": 47.257133869023924
+            },
+            "tdr": {
+              "value": 19.508786,
+              "yoy_diff": 4.465681,
+              "wow_diff": 4.3940470000000005
+            }
+          }
+        },
+        {
+          "dimension": "FI",
+          "metrics": {
+            "gmv": {
+              "value": 3552.3067199999996,
+              "yoy_diff": 1302.7067199999997,
+              "yoy_percentage": 57.90837126600283,
+              "wow_diff": -1569.8539100000007,
+              "wow_percentage": -30.648275667215863
+            },
+            "tdr": {
+              "value": 10.518656,
+              "yoy_diff": 8.632357,
+              "wow_diff": -5.115318
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Call it Spring.Products",
+      "section": [
+        {
+          "dimension": "MIRELLE",
+          "metrics": {
+            "gmv": {
+              "value": 3289.9770500000004,
+              "wow_diff": 1867.5041200000003,
+              "wow_percentage": 131.285740530753
+            },
+            "tdr": {
+              "value": 12.095535,
+              "wow_diff": 8.833983
+            }
+          }
+        },
+        {
+          "dimension": "BULLETPROOF",
+          "metrics": {
+            "gmv": {
+              "value": 1935.26656,
+              "yoy_diff": 1369.97656,
+              "yoy_percentage": 242.34933573917817,
+              "wow_diff": -1806.5667999999996,
+              "wow_percentage": -48.28025799631012
+            },
+            "tdr": {
+              "value": 8.842222,
+              "yoy_diff": 6.749671,
+              "wow_diff": -5.303232
+            }
+          }
+        },
+        {
+          "dimension": "BETTIIE B.E.D FOAM",
+          "metrics": {
+            "gmv": {
+              "value": 510.27455000000003,
+              "yoy_diff": -519.2754500000001,
+              "yoy_percentage": -50.43712787140012,
+              "wow_diff": -1503.2399999999998,
+              "wow_percentage": -74.65751861589477
+            },
+            "tdr": {
+              "value": 2.986716,
+              "yoy_diff": 2.477476,
+              "wow_diff": 1.897628
+            }
+          }
+        },
+        {
+          "dimension": "ALANII",
+          "metrics": {
+            "gmv": {
+              "value": 781.81921,
+              "yoy_diff": -1699.8007900000002,
+              "yoy_percentage": -68.49561133453147,
+              "wow_diff": 717.17322,
+              "wow_percentage": 1109.3854700036309
+            },
+            "tdr": {
+              "value": 8.954457,
+              "yoy_diff": 6.716879,
+              "wow_diff": 8.954457
+            }
+          }
+        },
+        {
+          "dimension": "ALANII",
+          "metrics": {
+            "gmv": {
+              "value": 149.46051,
+              "yoy_diff": -1442.92949,
+              "yoy_percentage": -90.61407632552327,
+              "wow_diff": 48.95232999999999,
+              "wow_percentage": 48.70482183639181
+            },
+            "tdr": {
+              "value": 0.0,
+              "yoy_diff": -1.886878,
+              "wow_diff": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Dr. Martens.CG3",
+      "section": [
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 85916.8551,
+              "yoy_diff": -49220.024899999975,
+              "yoy_percentage": -36.4223481406408,
+              "wow_diff": 20727.082220000004,
+              "wow_percentage": 31.7949906930248
+            },
+            "tdr": {
+              "value": 5.673846,
+              "yoy_diff": -5.407815,
+              "wow_diff": 0.5592610000000002
+            }
+          }
+        },
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 152544.04995,
+              "yoy_diff": 31974.09994999999,
+              "yoy_percentage": 26.51912848101869,
+              "wow_diff": -43766.33973999997,
+              "wow_percentage": -22.294459202649843
+            },
+            "tdr": {
+              "value": 19.103177,
+              "yoy_diff": 4.675462999999999,
+              "wow_diff": -8.038076
+            }
+          }
+        },
+        {
+          "dimension": "Bags & Luggage",
+          "metrics": {
+            "gmv": {
+              "value": 53677.41880000001,
+              "yoy_diff": 27834.208800000004,
+              "yoy_percentage": 107.70414665979962,
+              "wow_diff": 663.233610000003,
+              "wow_percentage": 1.2510493325946803
+            },
+            "tdr": {
+              "value": 22.864366,
+              "yoy_diff": 15.690647,
+              "wow_diff": -4.811274999999998
+            }
+          }
+        },
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 148410.99049,
+              "yoy_diff": 19381.108020000014,
+              "yoy_percentage": 15.020635258275314,
+              "wow_diff": -60253.99423000004,
+              "wow_percentage": -28.875948837727943
+            },
+            "tdr": {
+              "value": 30.95872,
+              "yoy_diff": 14.322495,
+              "wow_diff": -5.742353999999999
+            }
+          }
+        },
+        {
+          "dimension": "Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 16388.586609999995,
+              "yoy_diff": 9751.286609999996,
+              "yoy_percentage": 146.91646618353843,
+              "wow_diff": -8916.66047000001,
+              "wow_percentage": -35.236409436394275
+            },
+            "tdr": {
+              "value": 26.991732,
+              "yoy_diff": 13.967856,
+              "wow_diff": -7.831037000000002
+            }
+          }
+        },
+        {
+          "dimension": "Slippers",
+          "metrics": {
+            "gmv": {
+              "value": 1583.2693000000002,
+              "yoy_diff": 338.76930000000016,
+              "yoy_percentage": 27.22131779831259,
+              "wow_diff": -925.5003100000001,
+              "wow_percentage": -36.890605909404336
+            },
+            "tdr": {
+              "value": 55.376247,
+              "yoy_diff": 37.271459,
+              "wow_diff": -3.506352999999997
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Dr. Martens.Market",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 115819.47418,
+              "yoy_diff": 19837.394180000032,
+              "yoy_percentage": 20.667810262082295,
+              "wow_diff": -41777.25729999998,
+              "wow_percentage": -26.508961770759683
+            },
+            "tdr": {
+              "value": 25.006377,
+              "yoy_diff": 10.837755000000001,
+              "wow_diff": -6.8623259999999995
+            }
+          }
+        },
+        {
+          "dimension": "FR",
+          "metrics": {
+            "gmv": {
+              "value": 67761.8037,
+              "yoy_diff": 17171.38370000002,
+              "yoy_percentage": 33.94196707598005,
+              "wow_diff": 28353.67379,
+              "wow_percentage": 71.948792938802
+            },
+            "tdr": {
+              "value": 19.923319,
+              "yoy_diff": 7.601557,
+              "wow_diff": 5.842829
+            }
+          }
+        },
+        {
+          "dimension": "IT",
+          "metrics": {
+            "gmv": {
+              "value": 48303.72103,
+              "yoy_diff": 9956.11103,
+              "yoy_percentage": 25.96279410894186,
+              "wow_diff": -1474.4550000000017,
+              "wow_percentage": -2.9620510785919243
+            },
+            "tdr": {
+              "value": 32.656227,
+              "yoy_diff": 15.377872,
+              "wow_diff": 2.894508000000002
+            }
+          }
+        },
+        {
+          "dimension": "DK",
+          "metrics": {
+            "gmv": {
+              "value": 22126.628630000003,
+              "yoy_diff": -9495.631369999996,
+              "yoy_percentage": -30.02831350447437,
+              "wow_diff": 577.4639300000017,
+              "wow_percentage": 2.67975087684026
+            },
+            "tdr": {
+              "value": 15.599752,
+              "yoy_diff": 2.320298000000001,
+              "wow_diff": -7.016854
+            }
+          }
+        },
+        {
+          "dimension": "CH",
+          "metrics": {
+            "gmv": {
+              "value": 45529.58499,
+              "yoy_diff": -5619.425010000006,
+              "yoy_percentage": -10.986380792120913,
+              "wow_diff": -432.45588999999745,
+              "wow_percentage": -0.9408979273332856
+            },
+            "tdr": {
+              "value": 10.596414,
+              "yoy_diff": -0.6559230000000014,
+              "wow_diff": -1.4956560000000003
+            }
+          }
+        },
+        {
+          "dimension": "PL",
+          "metrics": {
+            "gmv": {
+              "value": 14307.609719999999,
+              "yoy_diff": 348.3097199999993,
+              "yoy_percentage": 2.4951804173561665,
+              "wow_diff": -25419.12212,
+              "wow_percentage": -63.98493141186618
+            },
+            "tdr": {
+              "value": 20.274557,
+              "yoy_diff": 8.105333000000002,
+              "wow_diff": -23.111027
+            }
+          }
+        },
+        {
+          "dimension": "NL",
+          "metrics": {
+            "gmv": {
+              "value": 24827.74342,
+              "yoy_diff": 1575.9834200000041,
+              "yoy_percentage": 6.777910231311542,
+              "wow_diff": -16252.909220000001,
+              "wow_percentage": -39.563415319684175
+            },
+            "tdr": {
+              "value": 25.981927,
+              "yoy_diff": 15.152019,
+              "wow_diff": -10.775314999999999
+            }
+          }
+        },
+        {
+          "dimension": "NO",
+          "metrics": {
+            "gmv": {
+              "value": 12606.1685,
+              "yoy_diff": -2264.8139699999992,
+              "yoy_percentage": -15.229753478419635,
+              "wow_diff": -8811.782770000002,
+              "wow_percentage": -41.14204322774146
+            },
+            "tdr": {
+              "value": 14.653679,
+              "yoy_diff": 6.261642,
+              "wow_diff": -7.306547999999999
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Dr. Martens.Products",
+      "section": [
+        {
+          "dimension": "Elphie MJ Mary Jane Shoe",
+          "metrics": {
+            "gmv": {
+              "value": 3995.423910000001,
+              "yoy_diff": 1790.223910000001,
+              "yoy_percentage": 81.1819295302014,
+              "wow_diff": -6060.125769999997,
+              "wow_percentage": -60.26647933581686
+            },
+            "tdr": {
+              "value": 35.879845,
+              "yoy_diff": 35.102629,
+              "wow_diff": -10.416848
+            }
+          }
+        },
+        {
+          "dimension": "Dunnet Flower Sandal",
+          "metrics": {
+            "gmv": {
+              "value": 12571.73492,
+              "yoy_diff": 12099.61492,
+              "yoy_percentage": 2562.826171312374,
+              "wow_diff": 4469.979070000001,
+              "wow_percentage": 55.17296685754856
+            },
+            "tdr": {
+              "value": 3.769612,
+              "yoy_diff": -3.077005,
+              "wow_diff": -0.273067
+            }
+          }
+        },
+        {
+          "dimension": "8363 Buzz",
+          "metrics": {
+            "gmv": {
+              "value": 2611.70094,
+              "yoy_diff": 615.5609400000001,
+              "yoy_percentage": 30.837563497550274,
+              "wow_diff": -4301.554179999999,
+              "wow_percentage": -62.22183479900275
+            },
+            "tdr": {
+              "value": 43.111164,
+              "yoy_diff": 41.36198,
+              "wow_diff": -4.944796
+            }
+          }
+        },
+        {
+          "dimension": "1460 Pascal Mono 8 Eye Boot",
+          "metrics": {
+            "gmv": {
+              "value": 505.88482,
+              "yoy_diff": -11233.09518,
+              "yoy_percentage": -95.69055556786024,
+              "wow_diff": -945.4723199999999,
+              "wow_percentage": -65.14401548332893
+            },
+            "tdr": {
+              "value": 10.001785,
+              "yoy_diff": -12.493744,
+              "wow_diff": -1.349426
+            }
+          }
+        },
+        {
+          "dimension": "Adrian Bex",
+          "metrics": {
+            "gmv": {
+              "value": 278.44956,
+              "yoy_diff": -13205.61044,
+              "yoy_percentage": -97.93497240445384,
+              "wow_diff": 42.89169000000001,
+              "wow_percentage": 18.208557413089196
+            },
+            "tdr": {
+              "value": 36.111296,
+              "yoy_diff": 12.58454,
+              "wow_diff": -2.465602
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.PARFOIS.CG3",
+      "section": [
+        {
+          "dimension": "Bags & Luggage",
+          "metrics": {
+            "gmv": {
+              "value": 13224.984339999999,
+              "yoy_diff": -59472.9345299999,
+              "yoy_percentage": -81.80830408137375,
+              "wow_diff": -1805.907750000004,
+              "wow_percentage": -12.01464117490051
+            },
+            "tdr": {
+              "value": 30.076237,
+              "yoy_diff": 22.757513,
+              "wow_diff": -2.8032480000000035
+            }
+          }
+        },
+        {
+          "dimension": "Small Accessories",
+          "metrics": {
+            "gmv": {
+              "value": 755.6776399999999,
+              "yoy_diff": -9210.540160000002,
+              "yoy_percentage": -92.41760861377122,
+              "wow_diff": 150.42448999999976,
+              "wow_percentage": 24.853152767565064
+            },
+            "tdr": {
+              "value": 25.206505,
+              "yoy_diff": 19.096521,
+              "wow_diff": -5.257194999999999
+            }
+          }
+        },
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 821.4104900000001,
+              "yoy_diff": -3794.849509999999,
+              "yoy_percentage": -82.20614761733523,
+              "wow_diff": -235.09361,
+              "wow_percentage": -22.25203006784356
+            },
+            "tdr": {
+              "value": 19.539419,
+              "yoy_diff": 17.172832
+            }
+          }
+        },
+        {
+          "dimension": "Outerwear",
+          "metrics": {
+            "gmv": {
+              "value": 465.7724,
+              "yoy_diff": -730.5075999999999,
+              "yoy_percentage": -61.06493463068846,
+              "wow_diff": -382.02286999999984,
+              "wow_percentage": -45.06074562081479
+            },
+            "tdr": {
+              "value": 53.902377,
+              "yoy_diff": 31.987250000000003,
+              "wow_diff": -7.605736
+            }
+          }
+        },
+        {
+          "dimension": "Skirts",
+          "metrics": {
+            "gmv": {
+              "value": 198.59408,
+              "yoy_diff": -647.7559200000001,
+              "yoy_percentage": -76.53523010574823,
+              "wow_diff": 33.412829999999985,
+              "wow_percentage": 20.227979870596684
+            },
+            "tdr": {
+              "value": 19.851979,
+              "yoy_diff": 17.915089000000002,
+              "wow_diff": -28.595891
+            }
+          }
+        },
+        {
+          "dimension": "Jewellery",
+          "metrics": {
+            "gmv": {
+              "value": 1913.2433399999998,
+              "yoy_diff": 437.72333999999955,
+              "yoy_percentage": 29.665700227716297,
+              "wow_diff": -475.09527,
+              "wow_percentage": -19.892291152132742
+            },
+            "tdr": {}
+          }
+        },
+        {
+          "dimension": "Knitwear",
+          "metrics": {
+            "gmv": {
+              "value": 486.26292,
+              "yoy_diff": -286.8570800000001,
+              "yoy_percentage": -37.103823468543055,
+              "wow_diff": -276.32403999999997,
+              "wow_percentage": -36.23508589761356
+            },
+            "tdr": {
+              "value": 25.901144,
+              "yoy_diff": -7.745185000000003,
+              "wow_diff": -5.3801570000000005
+            }
+          }
+        },
+        {
+          "dimension": "Sweat & Fleece",
+          "metrics": {
+            "gmv": {
+              "value": 70.7119,
+              "yoy_diff": -434.6881,
+              "yoy_percentage": -86.00872576177285,
+              "wow_diff": -263.73286,
+              "wow_percentage": -78.8569269256902
+            },
+            "tdr": {
+              "value": 49.888668,
+              "yoy_diff": 25.021888000000004,
+              "wow_diff": 29.883659
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.PARFOIS.Market",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 1842.5712400000002,
+              "yoy_diff": -15346.276560000002,
+              "yoy_percentage": -89.28042611442518,
+              "wow_diff": -760.2006299999998,
+              "wow_percentage": -29.207347703508102
+            },
+            "tdr": {
+              "value": 28.698482,
+              "yoy_diff": 25.04627,
+              "wow_diff": -9.483719999999998
+            }
+          }
+        },
+        {
+          "dimension": "CH",
+          "metrics": {
+            "gmv": {
+              "value": 1252.39415,
+              "yoy_diff": -9205.36109,
+              "yoy_percentage": -88.02425452443462,
+              "wow_diff": -385.1572600000002,
+              "wow_percentage": -23.52031561561784
+            },
+            "tdr": {
+              "value": 30.632986,
+              "yoy_diff": 22.954645999999997,
+              "wow_diff": 1.9354799999999983
+            }
+          }
+        },
+        {
+          "dimension": "IT",
+          "metrics": {
+            "gmv": {
+              "value": 1751.2915399999997,
+              "yoy_diff": -8962.22063,
+              "yoy_percentage": -83.65343211254316,
+              "wow_diff": 654.2964099999997,
+              "wow_percentage": 59.64442248708978
+            },
+            "tdr": {
+              "value": 36.292268,
+              "yoy_diff": 23.796484,
+              "wow_diff": 3.051566000000001
+            }
+          }
+        },
+        {
+          "dimension": "PL",
+          "metrics": {
+            "gmv": {
+              "value": 11985.76238,
+              "yoy_diff": -5565.559079999999,
+              "yoy_percentage": -31.710199671768756,
+              "wow_diff": -2907.23085,
+              "wow_percentage": -19.520796156300946
+            },
+            "tdr": {
+              "value": 27.446035,
+              "yoy_diff": 25.005972999999997,
+              "wow_diff": -5.929845000000004
+            }
+          }
+        },
+        {
+          "dimension": "FR",
+          "metrics": {
+            "gmv": {
+              "value": 1005.7033700000001,
+              "yoy_diff": -5466.056630000001,
+              "yoy_percentage": -84.4601256845124,
+              "wow_diff": 249.46880000000021,
+              "wow_percentage": 32.98828298738052
+            },
+            "tdr": {
+              "value": 28.771948,
+              "yoy_diff": 23.83375,
+              "wow_diff": 9.132030999999998
+            }
+          }
+        },
+        {
+          "dimension": "ES",
+          "metrics": {
+            "gmv": {
+              "value": 1490.39761,
+              "wow_diff": 490.15155000000004,
+              "wow_percentage": 49.00309729787889
+            },
+            "tdr": {
+              "value": 30.860519,
+              "wow_diff": 3.917859
+            }
+          }
+        },
+        {
+          "dimension": "NL",
+          "metrics": {
+            "gmv": {
+              "value": 666.8497,
+              "yoy_diff": -3044.3602999999994,
+              "yoy_percentage": -82.0314749098003,
+              "wow_diff": -427.24385000000007,
+              "wow_percentage": -39.05002913142117
+            },
+            "tdr": {
+              "value": 25.475448,
+              "yoy_diff": 23.31514,
+              "wow_diff": -5.113947
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.PARFOIS.Products",
+      "section": [
+        {
+          "dimension": "Woven leather shopper bag",
+          "metrics": {
+            "gmv": {
+              "value": 30.92399,
+              "wow_diff": -757.2056,
+              "wow_percentage": -96.07628105931157
+            },
+            "tdr": {}
+          }
+        },
+        {
+          "dimension": "Shoulder Bag DEMOCRACY Metallic Multicolor S",
+          "metrics": {
+            "gmv": {
+              "value": 423.01874999999995,
+              "wow_diff": -238.88545,
+              "wow_percentage": -36.090638192052566
+            },
+            "tdr": {
+              "value": 33.464605,
+              "wow_diff": -1.461368
+            }
+          }
+        },
+        {
+          "dimension": "Leather moccasins with bow and tassels",
+          "metrics": {
+            "gmv": {
+              "value": 41.298860000000005,
+              "wow_diff": -234.83949,
+              "wow_percentage": -85.04414182238722
+            },
+            "tdr": {}
+          }
+        },
+        {
+          "dimension": "Dress C2 MARÇO Khaki XL",
+          "metrics": {
+            "gmv": {
+              "value": 12.58477,
+              "yoy_diff": -137.16523,
+              "yoy_percentage": -91.5961469115192,
+              "wow_diff": -40.11052,
+              "wow_percentage": -76.11784658552975
+            },
+            "tdr": {
+              "value": 59.93094,
+              "yoy_diff": 59.93094,
+              "wow_diff": -5.263992
+            }
+          }
+        },
+        {
+          "dimension": "Coat PENNYLAN Khaki XL",
+          "metrics": {
+            "gmv": {
+              "value": 13.83834,
+              "yoy_diff": -424.50166,
+              "yoy_percentage": -96.84301227357759,
+              "wow_diff": -1.8648499999999988,
+              "wow_percentage": -11.875612534777959
+            },
+            "tdr": {
+              "value": 64.551343,
+              "yoy_diff": 64.551291,
+              "wow_diff": -8.099547
+            }
+          }
+        },
+        {
+          "dimension": "Crossbody Bag BIANCA Black L",
+          "metrics": {
+            "gmv": {
+              "value": 17.47337,
+              "yoy_diff": -75.25662999999999,
+              "yoy_percentage": -81.15672382184837
+            },
+            "tdr": {
+              "value": 19.622921,
+              "yoy_diff": -14.127591
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Steve Madden.CG3",
+      "section": [
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 85448.33944000003,
+              "yoy_diff": 33044.48944000005,
+              "yoy_percentage": 63.05736971615647,
+              "wow_diff": -2358.3042799999967,
+              "wow_percentage": -2.6857925324195455
+            },
+            "tdr": {
+              "value": 22.152711,
+              "yoy_diff": 11.413601,
+              "wow_diff": -6.692315000000001
+            }
+          }
+        },
+        {
+          "dimension": "Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 73508.61735999999,
+              "yoy_diff": 30784.37463,
+              "yoy_percentage": 72.0536460401296,
+              "wow_diff": 11255.27706999999,
+              "wow_percentage": 18.079796228714123
+            },
+            "tdr": {
+              "value": 13.275337,
+              "yoy_diff": 1.9753500000000006,
+              "wow_diff": -3.7766379999999984
+            }
+          }
+        },
+        {
+          "dimension": "Heeled Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 49869.93925999999,
+              "yoy_diff": 24125.127739999993,
+              "yoy_percentage": 93.70869824103491,
+              "wow_diff": -618.975360000004,
+              "wow_percentage": -1.2259628963281606
+            },
+            "tdr": {
+              "value": 8.545369,
+              "yoy_diff": 1.1716080000000009,
+              "wow_diff": 0.7140120000000012
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 50546.11411999999,
+              "yoy_diff": -22925.955879999972,
+              "yoy_percentage": -31.203634088436576,
+              "wow_diff": 14410.153179999987,
+              "wow_percentage": 39.877597842012676
+            },
+            "tdr": {
+              "value": 11.762671,
+              "yoy_diff": 7.645707999999999,
+              "wow_diff": -3.23639
+            }
+          }
+        },
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 12040.953829999999,
+              "yoy_diff": 4221.75383,
+              "yoy_percentage": 53.99214536013914,
+              "wow_diff": -3347.4253500000013,
+              "wow_percentage": -21.752942989282392
+            },
+            "tdr": {
+              "value": 47.055783,
+              "yoy_diff": 8.318241999999998,
+              "wow_diff": -2.104011
+            }
+          }
+        },
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 179078.34997,
+              "yoy_diff": 1655.3684999999823,
+              "yoy_percentage": 0.9330068102140895,
+              "wow_diff": -10482.73695000002,
+              "wow_percentage": -5.5300046651578985
+            },
+            "tdr": {
+              "value": 27.257629,
+              "yoy_diff": 14.364768000000002,
+              "wow_diff": -1.9722259999999991
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Steve Madden.Market",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 116053.93532000002,
+              "yoy_diff": 24618.335320000115,
+              "yoy_percentage": 26.92423445572637,
+              "wow_diff": 11676.099990000017,
+              "wow_percentage": 11.186378748979577
+            },
+            "tdr": {
+              "value": 22.04661,
+              "yoy_diff": 12.753092,
+              "wow_diff": -0.4166899999999991
+            }
+          }
+        },
+        {
+          "dimension": "FR",
+          "metrics": {
+            "gmv": {
+              "value": 42860.670920000004,
+              "yoy_diff": 13602.240919999997,
+              "yoy_percentage": 46.48998910741278,
+              "wow_diff": 13207.537350000006,
+              "wow_percentage": 44.54010676079791
+            },
+            "tdr": {
+              "value": 20.335639,
+              "yoy_diff": 8.619686,
+              "wow_diff": 6.518977
+            }
+          }
+        },
+        {
+          "dimension": "IT",
+          "metrics": {
+            "gmv": {
+              "value": 49443.89874,
+              "yoy_diff": 8990.148740000011,
+              "yoy_percentage": 22.22327655656154,
+              "wow_diff": 1570.9709199999852,
+              "wow_percentage": 3.281543434959238
+            },
+            "tdr": {
+              "value": 29.517025,
+              "yoy_diff": 15.857175,
+              "wow_diff": 0.6623909999999995
+            }
+          }
+        },
+        {
+          "dimension": "CH",
+          "metrics": {
+            "gmv": {
+              "value": 52402.90652000001,
+              "yoy_diff": 8165.163790000013,
+              "yoy_percentage": 18.45746027286057,
+              "wow_diff": 5317.610190000007,
+              "wow_percentage": 11.293568490535199
+            },
+            "tdr": {
+              "value": 9.599473,
+              "yoy_diff": 1.1619569999999992,
+              "wow_diff": -0.26106099999999977
+            }
+          }
+        },
+        {
+          "dimension": "NL",
+          "metrics": {
+            "gmv": {
+              "value": 41380.08574999999,
+              "yoy_diff": -5249.3742499999935,
+              "yoy_percentage": -11.257634658432664,
+              "wow_diff": -11716.371640000012,
+              "wow_percentage": -22.066202183587926
+            },
+            "tdr": {
+              "value": 20.43928,
+              "yoy_diff": 9.443982,
+              "wow_diff": -7.815242999999999
+            }
+          }
+        },
+        {
+          "dimension": "RO",
+          "metrics": {
+            "gmv": {
+              "value": 10220.0174,
+              "yoy_diff": -1893.8225999999995,
+              "yoy_percentage": -15.633544771930282,
+              "wow_diff": -8037.052129999996,
+              "wow_percentage": -44.02158909891602
+            },
+            "tdr": {
+              "value": 26.903879,
+              "yoy_diff": 7.607239,
+              "wow_diff": -11.444362000000002
+            }
+          }
+        },
+        {
+          "dimension": "PL",
+          "metrics": {
+            "gmv": {
+              "value": 20318.004130000005,
+              "yoy_diff": 5069.392610000006,
+              "yoy_percentage": 33.24494563554864,
+              "wow_diff": -5527.928980000001,
+              "wow_percentage": -21.388003120155098
+            },
+            "tdr": {
+              "value": 18.297239,
+              "yoy_diff": 8.004749,
+              "wow_diff": -11.334924999999998
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Steve Madden.Products",
+      "section": [
+        {
+          "dimension": "POSSESSION-E",
+          "metrics": {
+            "gmv": {
+              "value": 2070.3649600000003,
+              "wow_diff": -2581.0834099999997,
+              "wow_percentage": -55.48988626095402
+            },
+            "tdr": {
+              "value": 26.390754,
+              "wow_diff": -6.806791
+            }
+          }
+        },
+        {
+          "dimension": "Teacup-Mr",
+          "metrics": {
+            "gmv": {
+              "value": 2691.06477,
+              "wow_diff": 2418.67212,
+              "wow_percentage": 887.9358969487621
+            },
+            "tdr": {
+              "value": 22.100345,
+              "wow_diff": 12.786759
+            }
+          }
+        },
+        {
+          "dimension": "MAXIMA-SMRE",
+          "metrics": {
+            "gmv": {
+              "value": 1375.41006,
+              "wow_diff": -2024.8674699999995,
+              "wow_percentage": -59.55006472662835
+            },
+            "tdr": {
+              "value": 32.616094,
+              "wow_diff": -9.97035
+            }
+          }
+        },
+        {
+          "dimension": "POSSESSION-E",
+          "metrics": {
+            "gmv": {
+              "value": 6731.212750000001,
+              "yoy_diff": -8045.657250000002,
+              "yoy_percentage": -54.44764182130587,
+              "wow_diff": 422.7567400000007,
+              "wow_percentage": 6.7014296260425334
+            },
+            "tdr": {
+              "value": 21.221692,
+              "yoy_diff": 7.299854,
+              "wow_diff": 6.425368
+            }
+          }
+        },
+        {
+          "dimension": "POSSESSION-E",
+          "metrics": {
+            "gmv": {
+              "value": 6153.35684,
+              "yoy_diff": -6561.67316,
+              "yoy_percentage": -51.60564434374123,
+              "wow_diff": 370.133780000001,
+              "wow_percentage": 6.400129757402113
+            },
+            "tdr": {
+              "value": 20.216292,
+              "yoy_diff": 7.781341,
+              "wow_diff": 5.918999
+            }
+          }
+        },
+        {
+          "dimension": "PROJECT",
+          "metrics": {
+            "gmv": {
+              "value": 34.57503,
+              "yoy_diff": -6194.724969999999,
+              "yoy_percentage": -99.44496123159907
+            },
+            "tdr": {}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Vagabond.CG3",
+      "section": [
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 118909.18493,
+              "yoy_diff": 26213.934930000047,
+              "yoy_percentage": 28.279696025416683,
+              "wow_diff": -24092.644079999984,
+              "wow_percentage": -16.847787365233774
+            },
+            "tdr": {
+              "value": 11.048684,
+              "yoy_diff": 9.051974999999999,
+              "wow_diff": -3.3074189999999994
+            }
+          }
+        },
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 32526.05685,
+              "yoy_diff": 11999.636849999995,
+              "yoy_percentage": 58.459472474985866,
+              "wow_diff": -13912.094269999994,
+              "wow_percentage": -29.958329378897968
+            },
+            "tdr": {
+              "value": 37.841313,
+              "yoy_diff": 31.489956,
+              "wow_diff": -9.335154000000003
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 42823.11682999999,
+              "yoy_diff": -11052.593169999986,
+              "yoy_percentage": -20.514983783972387,
+              "wow_diff": 11956.46552999999,
+              "wow_percentage": 38.73586873351561
+            },
+            "tdr": {
+              "value": 4.25058,
+              "yoy_diff": 3.2649090000000003,
+              "wow_diff": 1.76404
+            }
+          }
+        },
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 44178.45038000001,
+              "yoy_diff": -8993.98962,
+              "yoy_percentage": -16.914758134101046,
+              "wow_diff": -10071.67708999999,
+              "wow_percentage": -18.565259769333387
+            },
+            "tdr": {
+              "value": 11.307601,
+              "yoy_diff": 9.855156000000001,
+              "wow_diff": -4.743758999999999
+            }
+          }
+        },
+        {
+          "dimension": "Heeled Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 18911.966320000003,
+              "yoy_diff": -8205.623680000004,
+              "yoy_percentage": -30.259413465577147,
+              "wow_diff": 815.1733199999981,
+              "wow_percentage": 4.504518120973135
+            },
+            "tdr": {
+              "value": 3.793698,
+              "yoy_diff": 2.2861219999999998,
+              "wow_diff": 1.2369850000000002
+            }
+          }
+        },
+        {
+          "dimension": "Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 23477.17805,
+              "yoy_diff": -1448.3871800000015,
+              "yoy_percentage": -5.810849891005667,
+              "wow_diff": -10577.448059999999,
+              "wow_percentage": -31.060238411761553
+            },
+            "tdr": {
+              "value": 19.416799,
+              "yoy_diff": 17.367978,
+              "wow_diff": -5.143194999999999
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Vagabond.Market",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 81438.38376999999,
+              "yoy_diff": 10501.46358000004,
+              "yoy_percentage": 14.803946311557578,
+              "wow_diff": -12878.465180000014,
+              "wow_percentage": -13.654469295117405
+            },
+            "tdr": {
+              "value": 14.735588,
+              "yoy_diff": 12.602639,
+              "wow_diff": -6.548469000000001
+            }
+          }
+        },
+        {
+          "dimension": "DK",
+          "metrics": {
+            "gmv": {
+              "value": 20515.632299999997,
+              "yoy_diff": 7469.0122999999985,
+              "yoy_percentage": 57.24863834464404,
+              "wow_diff": 3947.523129999994,
+              "wow_percentage": 23.826032829067803
+            },
+            "tdr": {
+              "value": 17.925036,
+              "yoy_diff": 16.083914,
+              "wow_diff": -6.761132
+            }
+          }
+        },
+        {
+          "dimension": "NO",
+          "metrics": {
+            "gmv": {
+              "value": 23857.31424,
+              "yoy_diff": -5625.745760000002,
+              "yoy_percentage": -19.08128179368085,
+              "wow_diff": -3805.341199999999,
+              "wow_percentage": -13.756239737192777
+            },
+            "tdr": {
+              "value": 12.140133,
+              "yoy_diff": 10.894649000000001,
+              "wow_diff": -10.551398
+            }
+          }
+        },
+        {
+          "dimension": "CH",
+          "metrics": {
+            "gmv": {
+              "value": 32505.366380000003,
+              "yoy_diff": -2762.1536199999937,
+              "yoy_percentage": -7.832004121639384,
+              "wow_diff": -3605.7031800000004,
+              "wow_percentage": -9.985035680012132
+            },
+            "tdr": {
+              "value": 5.569912,
+              "yoy_diff": 5.156881,
+              "wow_diff": -0.8457099999999995
+            }
+          }
+        },
+        {
+          "dimension": "PL",
+          "metrics": {
+            "gmv": {
+              "value": 10320.04417,
+              "yoy_diff": 2466.904169999999,
+              "yoy_percentage": 31.412965641768753,
+              "wow_diff": -7324.479010000005,
+              "wow_percentage": -41.51134567525334
+            },
+            "tdr": {
+              "value": 20.905123,
+              "yoy_diff": 17.660419,
+              "wow_diff": -14.446191000000002
+            }
+          }
+        },
+        {
+          "dimension": "SE",
+          "metrics": {
+            "gmv": {
+              "value": 28325.95531,
+              "yoy_diff": -1233.8046900000008,
+              "yoy_percentage": -4.17393338105587,
+              "wow_diff": -10112.433850000012,
+              "wow_percentage": -26.3081624152015
+            },
+            "tdr": {
+              "value": 11.175734,
+              "yoy_diff": 8.747857,
+              "wow_diff": -3.941388
+            }
+          }
+        },
+        {
+          "dimension": "CZ",
+          "metrics": {
+            "gmv": {
+              "value": 4340.5894100000005,
+              "yoy_diff": -1167.6905900000002,
+              "yoy_percentage": -21.198824133849406,
+              "wow_diff": -5265.541350000001,
+              "wow_percentage": -54.814383455259154
+            },
+            "tdr": {
+              "value": 15.252917,
+              "yoy_diff": 9.614592,
+              "wow_diff": -12.599229999999999
+            }
+          }
+        },
+        {
+          "dimension": "HU",
+          "metrics": {
+            "gmv": {
+              "value": 2206.65995,
+              "yoy_diff": -382.5200499999996,
+              "yoy_percentage": -14.773791316169586,
+              "wow_diff": -5053.40021,
+              "wow_percentage": -69.60548671266108
+            },
+            "tdr": {
+              "value": 31.316859,
+              "yoy_diff": 24.151535000000003,
+              "wow_diff": -14.072297999999996
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand.Vagabond.Products",
+      "section": [
+        {
+          "dimension": "ELLIS",
+          "metrics": {
+            "gmv": {
+              "value": 3014.0613500000004,
+              "wow_diff": -5860.64191,
+              "wow_percentage": -66.03760980285442
+            },
+            "tdr": {
+              "value": 7.606909,
+              "wow_diff": -0.951916
+            }
+          }
+        },
+        {
+          "dimension": "KENOVA",
+          "metrics": {
+            "gmv": {
+              "value": 2376.91274,
+              "yoy_diff": -1017.7272599999992,
+              "yoy_percentage": -29.980417953008253,
+              "wow_diff": -4017.5778299999997,
+              "wow_percentage": -62.828739616078586
+            },
+            "tdr": {
+              "value": 0.861919,
+              "yoy_diff": -1.193486,
+              "wow_diff": 0.032183
+            }
+          }
+        },
+        {
+          "dimension": "AMINA",
+          "metrics": {
+            "gmv": {
+              "value": 4032.83301,
+              "yoy_diff": 2496.81301,
+              "yoy_percentage": 162.5508137914871,
+              "wow_diff": -2623.994730000001,
+              "wow_percentage": -39.41809571295893
+            },
+            "tdr": {
+              "value": 18.192968,
+              "yoy_diff": 15.452158,
+              "wow_diff": -6.430599
+            }
+          }
+        },
+        {
+          "dimension": "DELIA",
+          "metrics": {
+            "gmv": {
+              "value": 5235.661790000001,
+              "yoy_diff": 4374.711790000001,
+              "yoy_percentage": 508.1261153377086,
+              "wow_diff": 264.63032999999905,
+              "wow_percentage": 5.323449109694408
+            },
+            "tdr": {
+              "value": 23.64227,
+              "yoy_diff": 23.64227,
+              "wow_diff": -3.017189
+            }
+          }
+        },
+        {
+          "dimension": "DEBBI",
+          "metrics": {
+            "gmv": {
+              "value": 146.03262,
+              "yoy_diff": -5055.137379999999,
+              "yoy_percentage": -97.19231211438965,
+              "wow_diff": -90.09544999999997,
+              "wow_percentage": -38.15533240076031
+            },
+            "tdr": {
+              "value": 29.301429,
+              "yoy_diff": 28.320696,
+              "wow_diff": 6.864147
+            }
+          }
+        },
+        {
+          "dimension": "TIA 2.0",
+          "metrics": {
+            "gmv": {
+              "value": 1207.6671,
+              "yoy_diff": -4585.0329,
+              "yoy_percentage": -79.15191361541251,
+              "wow_diff": 61.62393999999972,
+              "wow_percentage": 5.37710464586689
+            },
+            "tdr": {
+              "value": 2.250211,
+              "yoy_diff": 1.948514,
+              "wow_diff": -0.696835
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commodity_CG2",
+      "section": [
+        {
+          "dimension": "Women",
+          "metrics": {
+            "gmv": {
+              "value": 2404332.1289,
+              "yoy_diff": 192042.97972000204,
+              "yoy_percentage": 8.680735960359625,
+              "wow_diff": -182357.8048299998,
+              "wow_percentage": -7.049851721773254
+            },
+            "tdr": {
+              "value": 18.248667,
+              "yoy_diff": 7.207141000000002,
+              "wow_diff": -5.222277999999999
+            }
+          }
+        },
+        {
+          "dimension": "Unisex",
+          "metrics": {
+            "gmv": {
+              "value": 539458.12908,
+              "yoy_diff": 43178.33565999847,
+              "yoy_percentage": 8.700401715420368,
+              "wow_diff": -44615.17928000004,
+              "wow_percentage": -7.638626631522251
+            },
+            "tdr": {
+              "value": 17.638882,
+              "yoy_diff": 5.310367999999999,
+              "wow_diff": -4.563689
+            }
+          }
+        },
+        {
+          "dimension": "Men",
+          "metrics": {
+            "gmv": {
+              "value": 186023.14938000002,
+              "yoy_diff": 10626.219630000007,
+              "yoy_percentage": 6.058384057888565,
+              "wow_diff": -5409.726179999998,
+              "wow_percentage": -2.825912824103428
+            },
+            "tdr": {
+              "value": 18.883186,
+              "yoy_diff": 8.712010999999999,
+              "wow_diff": -3.312472000000003
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commodity_CG3",
+      "section": [
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 586511.42352,
+              "yoy_diff": 173675.40376999904,
+              "yoy_percentage": 42.068859174441904,
+              "wow_diff": -87559.4839799999,
+              "wow_percentage": -12.989654798297304
+            },
+            "tdr": {
+              "value": 16.3399,
+              "yoy_diff": 6.915433,
+              "wow_diff": -5.571888000000001
+            }
+          }
+        },
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 667252.35705,
+              "yoy_diff": 99972.60374999954,
+              "yoy_percentage": 17.623157387238884,
+              "wow_diff": -43474.66490000009,
+              "wow_percentage": -6.1169286599966295
+            },
+            "tdr": {
+              "value": 23.366729,
+              "yoy_diff": 8.048442999999999,
+              "wow_diff": -2.6239120000000007
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 295093.57791999995,
+              "yoy_diff": -94825.05208000116,
+              "yoy_percentage": -24.319189898672164,
+              "wow_diff": 64401.85864999998,
+              "wow_percentage": 27.916848881179167
+            },
+            "tdr": {
+              "value": 5.91479,
+              "yoy_diff": -1.6264070000000004,
+              "wow_diff": -0.16408600000000018
+            }
+          }
+        },
+        {
+          "dimension": "Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 292306.90978999995,
+              "yoy_diff": 57133.141829999804,
+              "yoy_percentage": 24.29401132855828,
+              "wow_diff": -40921.15292000014,
+              "wow_percentage": -12.280224116542303
+            },
+            "tdr": {
+              "value": 15.863115,
+              "yoy_diff": 7.757619,
+              "wow_diff": -5.699235999999999
+            }
+          }
+        },
+        {
+          "dimension": "Jewellery",
+          "metrics": {
+            "gmv": {
+              "value": 121933.7086,
+              "yoy_diff": -53930.841760000025,
+              "yoy_percentage": -30.666124383567904,
+              "wow_diff": 4700.093750000015,
+              "wow_percentage": 4.009169004993805
+            },
+            "tdr": {
+              "value": 15.487659,
+              "yoy_diff": 3.1405070000000013,
+              "wow_diff": -3.2948009999999996
+            }
+          }
+        },
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 295951.47487000003,
+              "yoy_diff": 53398.408949999925,
+              "yoy_percentage": 22.01514491167554,
+              "wow_diff": -117700.34114999988,
+              "wow_percentage": -28.45396456432071
+            },
+            "tdr": {
+              "value": 33.898726,
+              "yoy_diff": 11.778299000000004,
+              "wow_diff": -6.049463999999993
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commodity_CG3.Boots.CG4",
+      "section": [
+        {
+          "dimension": "Short Boots",
+          "metrics": {
+            "gmv": {
+              "value": 212677.11759999997,
+              "yoy_diff": 49515.83168,
+              "yoy_percentage": 30.347782196493746,
+              "wow_diff": -79256.93499999997,
+              "wow_percentage": -27.14891746753355
+            },
+            "tdr": {
+              "value": 30.420051,
+              "yoy_diff": 11.057847000000002,
+              "wow_diff": -5.886592999999998
+            }
+          }
+        },
+        {
+          "dimension": "Winter Boots",
+          "metrics": {
+            "gmv": {
+              "value": 8381.07787,
+              "yoy_diff": 4222.9278699999995,
+              "yoy_percentage": 101.5578531318014,
+              "wow_diff": -7644.853720000003,
+              "wow_percentage": -47.70302229899885
+            },
+            "tdr": {
+              "value": 45.639685,
+              "yoy_diff": 15.505455999999999,
+              "wow_diff": -4.826884999999997
+            }
+          }
+        },
+        {
+          "dimension": "Rain Boots",
+          "metrics": {
+            "gmv": {
+              "value": 1101.10683,
+              "yoy_diff": 908.94683,
+              "yoy_percentage": 473.0156276019983,
+              "wow_diff": -323.2011100000002,
+              "wow_percentage": -22.691800061158133
+            },
+            "tdr": {
+              "value": 36.789456,
+              "yoy_diff": -8.215969999999999,
+              "wow_diff": -21.699323999999997
+            }
+          }
+        },
+        {
+          "dimension": "Overknee",
+          "metrics": {
+            "gmv": {
+              "value": 1528.5252799999998,
+              "yoy_diff": -881.86472,
+              "yoy_percentage": -36.585976543215004,
+              "wow_diff": 160.2803299999996,
+              "wow_percentage": 11.714300864037508
+            },
+            "tdr": {
+              "value": 45.763543,
+              "yoy_diff": 27.320152999999998,
+              "wow_diff": -3.8197900000000047
+            }
+          }
+        },
+        {
+          "dimension": "n/a",
+          "metrics": {
+            "gmv": {
+              "value": 1542.0120499999998,
+              "yoy_diff": -567.70795,
+              "yoy_percentage": -26.909160931308424,
+              "wow_diff": 281.2565599999998,
+              "wow_percentage": 22.308573092154436
+            },
+            "tdr": {
+              "value": 31.442854,
+              "yoy_diff": 6.2702729999999995,
+              "wow_diff": -5.125065000000003
+            }
+          }
+        },
+        {
+          "dimension": "Tall Boots",
+          "metrics": {
+            "gmv": {
+              "value": 70721.63524,
+              "yoy_diff": 200.27524000003177,
+              "yoy_percentage": 0.2839923109821363,
+              "wow_diff": -30916.888209999976,
+              "wow_percentage": -30.418474374245726
+            },
+            "tdr": {
+              "value": 41.099828,
+              "yoy_diff": 14.022334,
+              "wow_diff": -5.520792999999998
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commodity_CG3.Flat Sandals.CG4",
+      "section": [
+        {
+          "dimension": "n/a",
+          "metrics": {
+            "gmv": {
+              "value": 5035.55233,
+              "yoy_diff": -64175.04766999998,
+              "yoy_percentage": -92.72430475967553,
+              "wow_diff": 1433.18599,
+              "wow_percentage": 39.78457088292691
+            },
+            "tdr": {
+              "value": 17.34479,
+              "yoy_diff": 6.130765,
+              "wow_diff": -13.69859
+            }
+          }
+        },
+        {
+          "dimension": "Slides",
+          "metrics": {
+            "gmv": {
+              "value": 51866.922920000005,
+              "yoy_diff": -41904.1970799999,
+              "yoy_percentage": -44.68774296393169,
+              "wow_diff": 12817.32706000001,
+              "wow_percentage": 32.82320028599654
+            },
+            "tdr": {
+              "value": 8.68461,
+              "yoy_diff": 2.133977999999999,
+              "wow_diff": -2.1938460000000006
+            }
+          }
+        },
+        {
+          "dimension": "Strappy",
+          "metrics": {
+            "gmv": {
+              "value": 22009.65808,
+              "yoy_diff": -26232.071919999995,
+              "yoy_percentage": -54.37630847815781,
+              "wow_diff": 7087.269940000004,
+              "wow_percentage": 47.49420718391798
+            },
+            "tdr": {
+              "value": 7.39923,
+              "yoy_diff": 2.987515,
+              "wow_diff": -1.5927949999999997
+            }
+          }
+        },
+        {
+          "dimension": "Mules",
+          "metrics": {
+            "gmv": {
+              "value": 47150.88433,
+              "yoy_diff": 16602.50433,
+              "yoy_percentage": 54.34823165745614,
+              "wow_diff": 11871.670379999996,
+              "wow_percentage": 33.65060910037649
+            },
+            "tdr": {
+              "value": 7.710559,
+              "yoy_diff": 4.294335,
+              "wow_diff": -1.4792229999999993
+            }
+          }
+        },
+        {
+          "dimension": "Closed Toe",
+          "metrics": {
+            "gmv": {
+              "value": 27416.228229999997,
+              "yoy_diff": -14923.941770000001,
+              "yoy_percentage": -35.247713388963724,
+              "wow_diff": 3471.6776699999973,
+              "wow_percentage": 14.498821605779169
+            },
+            "tdr": {
+              "value": 5.781506,
+              "yoy_diff": -1.353142,
+              "wow_diff": 2.5464640000000003
+            }
+          }
+        },
+        {
+          "dimension": "Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 96534.89211000002,
+              "yoy_diff": 13661.282110000058,
+              "yoy_percentage": 16.484478122770405,
+              "wow_diff": 27300.382070000007,
+              "wow_percentage": 39.431754560301364
+            },
+            "tdr": {
+              "value": 3.845656,
+              "yoy_diff": -5.376953,
+              "wow_diff": 0.9039190000000001
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commodity_CG3.Flat Shoes.CG4",
+      "section": [
+        {
+          "dimension": "Loafers",
+          "metrics": {
+            "gmv": {
+              "value": 189516.83158000003,
+              "yoy_diff": 74750.32158000008,
+              "yoy_percentage": 65.13252130782762,
+              "wow_diff": -26765.429809999943,
+              "wow_percentage": -12.375231162271115
+            },
+            "tdr": {
+              "value": 15.172664,
+              "yoy_diff": 4.488831999999999,
+              "wow_diff": -4.620946999999999
+            }
+          }
+        },
+        {
+          "dimension": "Classic Ballerinas",
+          "metrics": {
+            "gmv": {
+              "value": 172695.65531999996,
+              "yoy_diff": 39662.64532000001,
+              "yoy_percentage": 29.814138100009934,
+              "wow_diff": -25562.771349999995,
+              "wow_percentage": -12.8936619640128
+            },
+            "tdr": {
+              "value": 18.10752,
+              "yoy_diff": 9.524349,
+              "wow_diff": -5.4159299999999995
+            }
+          }
+        },
+        {
+          "dimension": "Business Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 36937.86428,
+              "yoy_diff": -29506.54546999999,
+              "yoy_percentage": -44.40786754073016,
+              "wow_diff": -5312.877070000002,
+              "wow_percentage": -12.57463632647005
+            },
+            "tdr": {
+              "value": 17.615004,
+              "yoy_diff": 1.7304519999999997,
+              "wow_diff": -4.248691000000001
+            }
+          }
+        },
+        {
+          "dimension": "Lace-up",
+          "metrics": {
+            "gmv": {
+              "value": 26630.22714,
+              "yoy_diff": 22752.01714,
+              "yoy_percentage": 586.6628454879958,
+              "wow_diff": -12555.428769999988,
+              "wow_percentage": -32.04087944536844
+            },
+            "tdr": {
+              "value": 25.169681,
+              "yoy_diff": 23.03998,
+              "wow_diff": -12.020495
+            }
+          }
+        },
+        {
+          "dimension": "Boat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 42734.83379,
+              "yoy_diff": 17226.303789999994,
+              "yoy_percentage": 67.53154254674806,
+              "wow_diff": -7377.504820000002,
+              "wow_percentage": -14.721932810630811
+            },
+            "tdr": {
+              "value": 14.392583,
+              "yoy_diff": 10.766012,
+              "wow_diff": -5.607853
+            }
+          }
+        },
+        {
+          "dimension": "Slingback",
+          "metrics": {
+            "gmv": {
+              "value": 51419.94002999999,
+              "yoy_diff": 7716.560030000001,
+              "yoy_percentage": 17.65666644090229,
+              "wow_diff": -5825.891780000013,
+              "wow_percentage": -10.176971136232691
+            },
+            "tdr": {
+              "value": 15.263937,
+              "yoy_diff": 9.752844,
+              "wow_diff": -4.673876999999999
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commodity_CG3.Jewellery.CG4",
+      "section": [
+        {
+          "dimension": "Necklaces",
+          "metrics": {
+            "gmv": {
+              "value": 30001.47494,
+              "yoy_diff": -18584.905539999956,
+              "yoy_percentage": -38.25126579999147,
+              "wow_diff": -757.5925599999973,
+              "wow_percentage": -2.4629893607795403
+            },
+            "tdr": {
+              "value": 15.077914,
+              "yoy_diff": 2.811076,
+              "wow_diff": -3.385750999999999
+            }
+          }
+        },
+        {
+          "dimension": "Bracelets",
+          "metrics": {
+            "gmv": {
+              "value": 23852.446889999996,
+              "yoy_diff": -14797.199230000002,
+              "yoy_percentage": -38.285471447933666,
+              "wow_diff": 4040.8508399999955,
+              "wow_percentage": 20.396392243218564
+            },
+            "tdr": {
+              "value": 12.543089,
+              "yoy_diff": 2.0261320000000005,
+              "wow_diff": -2.5959470000000007
+            }
+          }
+        },
+        {
+          "dimension": "Earrings",
+          "metrics": {
+            "gmv": {
+              "value": 52580.3625,
+              "yoy_diff": -12437.867499999898,
+              "yoy_percentage": -19.129815591719304,
+              "wow_diff": 640.0700100000031,
+              "wow_percentage": 1.232318840182186
+            },
+            "tdr": {
+              "value": 14.317133,
+              "yoy_diff": 0.6806719999999995,
+              "wow_diff": -2.479709999999999
+            }
+          }
+        },
+        {
+          "dimension": "Rings",
+          "metrics": {
+            "gmv": {
+              "value": 9590.23061,
+              "yoy_diff": -4229.123150000001,
+              "yoy_percentage": -30.60290099990899,
+              "wow_diff": -552.0591399999994,
+              "wow_percentage": -5.443141081628036
+            },
+            "tdr": {
+              "value": 24.184609,
+              "yoy_diff": 11.753398999999998,
+              "wow_diff": -4.832469000000003
+            }
+          }
+        },
+        {
+          "dimension": "Mixed Jewellery Sets",
+          "metrics": {
+            "gmv": {
+              "value": 1882.70802,
+              "yoy_diff": -3068.5919799999992,
+              "yoy_percentage": -61.97548078282471,
+              "wow_diff": 184.86497000000008,
+              "wow_percentage": 10.888224915724695
+            },
+            "tdr": {
+              "value": 35.906195,
+              "yoy_diff": 18.803155999999998,
+              "wow_diff": -0.8945090000000064
+            }
+          }
+        },
+        {
+          "dimension": "Anklets",
+          "metrics": {
+            "gmv": {
+              "value": 3503.99959,
+              "yoy_diff": 644.3495900000003,
+              "yoy_percentage": 22.53246341335479,
+              "wow_diff": 1262.98139,
+              "wow_percentage": 56.35748027392191
+            },
+            "tdr": {
+              "value": 3.428431,
+              "yoy_diff": -4.296398,
+              "wow_diff": 3.4283129999999997
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commodity_CG3.Pumps.CG4",
+      "section": [
+        {
+          "dimension": "Open Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 142802.78866000002,
+              "yoy_diff": 27798.705930000127,
+              "yoy_percentage": 24.171929613372388,
+              "wow_diff": -6952.064019999962,
+              "wow_percentage": -4.64229632334874
+            },
+            "tdr": {
+              "value": 13.00824,
+              "yoy_diff": 5.158399000000001,
+              "wow_diff": -4.783078
+            }
+          }
+        },
+        {
+          "dimension": "Vamp Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 20841.782630000005,
+              "yoy_diff": 18619.562630000004,
+              "yoy_percentage": 837.8811562311565,
+              "wow_diff": -9561.447539999994,
+              "wow_percentage": -31.44878845615105
+            },
+            "tdr": {
+              "value": 21.774591,
+              "yoy_diff": 11.154032,
+              "wow_diff": -12.33513
+            }
+          }
+        },
+        {
+          "dimension": "Slingbacks ",
+          "metrics": {
+            "gmv": {
+              "value": 17396.29046,
+              "yoy_diff": 14651.330460000001,
+              "yoy_percentage": 533.7538783807415,
+              "wow_diff": -4254.502049999999,
+              "wow_percentage": -19.65056035724763
+            },
+            "tdr": {
+              "value": 6.256147,
+              "yoy_diff": 5.320207,
+              "wow_diff": -4.004469
+            }
+          }
+        },
+        {
+          "dimension": "High Heels",
+          "metrics": {
+            "gmv": {
+              "value": 52416.419740000005,
+              "yoy_diff": -6395.19529999997,
+              "yoy_percentage": -10.874034483920155,
+              "wow_diff": -6114.686679999977,
+              "wow_percentage": -10.44690089424074
+            },
+            "tdr": {
+              "value": 16.204187,
+              "yoy_diff": 8.446417,
+              "wow_diff": -5.466766999999997
+            }
+          }
+        },
+        {
+          "dimension": "Lace-up",
+          "metrics": {
+            "gmv": {
+              "value": 6580.478980000001,
+              "yoy_diff": 4862.82898,
+              "yoy_percentage": 283.10942159345615,
+              "wow_diff": -270.25482999999895,
+              "wow_percentage": -3.944903385466658
+            },
+            "tdr": {
+              "value": 28.32968,
+              "yoy_diff": -1.211303000000001,
+              "wow_diff": 0.319939999999999
+            }
+          }
+        },
+        {
+          "dimension": "Mary Janes",
+          "metrics": {
+            "gmv": {
+              "value": 51268.97833,
+              "yoy_diff": -3404.261859999977,
+              "yoy_percentage": -6.226559553027249,
+              "wow_diff": -14502.031170000002,
+              "wow_percentage": -22.049275631081812
+            },
+            "tdr": {
+              "value": 21.846341,
+              "yoy_diff": 13.479199,
+              "wow_diff": -4.935243
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Commodity_CG3.Sneakers.CG4",
+      "section": [
+        {
+          "dimension": "Low",
+          "metrics": {
+            "gmv": {
+              "value": 610556.83225,
+              "yoy_diff": 57082.39894999936,
+              "yoy_percentage": 10.31346626250736,
+              "wow_diff": -35479.28583000018,
+              "wow_percentage": -5.49184245850581
+            },
+            "tdr": {
+              "value": 22.900353,
+              "yoy_diff": 7.631302,
+              "wow_diff": -2.400454
+            }
+          }
+        },
+        {
+          "dimension": "Wedge",
+          "metrics": {
+            "gmv": {
+              "value": 25417.628389999998,
+              "yoy_diff": 20988.48839,
+              "yoy_percentage": 473.8727696573149,
+              "wow_diff": -4403.451189999996,
+              "wow_percentage": -14.766236675593877
+            },
+            "tdr": {
+              "value": 26.335479,
+              "yoy_diff": 2.7915810000000008,
+              "wow_diff": -5.353376000000001
+            }
+          }
+        },
+        {
+          "dimension": "High",
+          "metrics": {
+            "gmv": {
+              "value": 20226.365400000002,
+              "yoy_diff": 13743.005400000002,
+              "yoy_percentage": 211.973504479159,
+              "wow_diff": -2824.2412099999965,
+              "wow_percentage": -12.25235091546251
+            },
+            "tdr": {
+              "value": 26.540064,
+              "yoy_diff": 9.975458,
+              "wow_diff": -2.352598999999998
+            }
+          }
+        },
+        {
+          "dimension": "Slip-ons",
+          "metrics": {
+            "gmv": {
+              "value": 9094.370280000001,
+              "yoy_diff": 6884.050280000001,
+              "yoy_percentage": 311.4503908936263,
+              "wow_diff": 959.3881700000029,
+              "wow_percentage": 11.793365455846136
+            },
+            "tdr": {
+              "value": 33.129793,
+              "yoy_diff": 31.822029,
+              "wow_diff": -5.635255999999998
+            }
+          }
+        },
+        {
+          "dimension": "Slip-On",
+          "metrics": {
+            "gmv": {
+              "value": 1904.77764,
+              "yoy_diff": 1222.27764,
+              "yoy_percentage": 179.0882989010989,
+              "wow_diff": -1594.3240199999998,
+              "wow_percentage": -45.563809655075865
+            },
+            "tdr": {
+              "value": 20.403072,
+              "yoy_diff": 10.000840000000002,
+              "wow_diff": -9.566157999999998
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Seasons",
+      "section": [
+        {
+          "dimension": "Spring/Summer",
+          "metrics": {
+            "gmv": {
+              "value": 2664288.8270700006,
+              "yoy_diff": 458487.94582000514,
+              "yoy_percentage": 20.78555456738174,
+              "wow_diff": -233806.84511999972,
+              "wow_percentage": -8.06760271455494
+            },
+            "tdr": {
+              "value": 19.114584,
+              "yoy_diff": 9.094655000000001,
+              "wow_diff": -5.732157999999998
+            },
+            "stock": {
+              "value": 14989910.0,
+              "yoy_percentage": -1.3325452176440058
+            },
+            "traffic": {
+              "value": 3371518.0,
+              "wow_percentage": -6.596912769489947
+            },
+            "conversion_rate": {
+              "value": 1.3632435004054553,
+              "wow_diff": -0.08919930349509664
+            },
+            "twar": {
+              "value": 79.59249074016827,
+              "yoy_diff": -0.0013163380332485985,
+              "wow_diff": -0.603139762250251
+            }
+          }
+        },
+        {
+          "dimension": "Basics",
+          "metrics": {
+            "gmv": {
+              "value": 461932.43859000027,
+              "yoy_diff": -203515.88250999898,
+              "yoy_percentage": -30.583273870701667,
+              "wow_diff": -2168.0068699995754,
+              "wow_percentage": -0.46714173433958334
+            },
+            "tdr": {
+              "value": 12.052697,
+              "yoy_diff": -3.362615999999999,
+              "wow_diff": 1.9240089999999999
+            },
+            "stock": {
+              "value": 3520482.0,
+              "yoy_percentage": -6.22930401837654
+            },
+            "traffic": {
+              "value": 386079.0,
+              "wow_percentage": -0.8821226396929515
+            },
+            "conversion_rate": {
+              "value": 2.0513936266929824,
+              "wow_diff": 0.009367003841487698
+            },
+            "twar": {
+              "value": 86.52023911566896,
+              "yoy_diff": 1.568040480783253,
+              "wow_diff": -0.04956662871801143
+            }
+          }
+        },
+        {
+          "dimension": "Autumn/Winter",
+          "metrics": {
+            "gmv": {
+              "value": 3592.1417000000006,
+              "yoy_diff": -9124.528300000002,
+              "yoy_percentage": -71.75249731258262
+            },
+            "tdr": {
+              "value": 16.572688,
+              "yoy_diff": 16.061671999999998
+            },
+            "stock": {
+              "value": 77637.0,
+              "yoy_percentage": -63.825831702544036
+            },
+            "traffic": {
+              "value": 31182.0
+            },
+            "conversion_rate": {
+              "value": 0.8819190558655635
+            },
+            "twar": {
+              "value": 23.270543670095993,
+              "yoy_diff": -18.830241860622134
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Season.Autumn/Winter.CG3",
+      "section": [
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 1351.14265,
+              "yoy_diff": -4038.387349999999,
+              "yoy_percentage": -74.93023232081461
+            },
+            "tdr": {
+              "value": 19.809688,
+              "yoy_diff": 19.809684
+            }
+          }
+        },
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 617.52169,
+              "yoy_diff": -2296.8883099999994,
+              "yoy_percentage": -78.81143387512395
+            },
+            "tdr": {
+              "value": 13.58894,
+              "yoy_diff": 9.689833
+            }
+          }
+        },
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 449.30213,
+              "yoy_diff": -1962.42787,
+              "yoy_percentage": -81.37013139945184
+            },
+            "tdr": {
+              "value": 18.012228,
+              "yoy_diff": 18.012225
+            }
+          }
+        },
+        {
+          "dimension": "Heeled Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 440.91037,
+              "yoy_diff": 340.92037,
+              "yoy_percentage": 340.95446544654465
+            },
+            "tdr": {
+              "value": 16.830415
+            }
+          }
+        },
+        {
+          "dimension": "Glasses",
+          "metrics": {
+            "gmv": {
+              "value": 27.88821,
+              "yoy_diff": -73.93178999999999,
+              "yoy_percentage": -72.61028285209193
+            },
+            "tdr": {
+              "value": 20.003133,
+              "yoy_diff": 20.003133
+            }
+          }
+        },
+        {
+          "dimension": "Bags & Luggage",
+          "metrics": {
+            "gmv": {
+              "value": 15.54621,
+              "yoy_diff": 15.54621
+            },
+            "tdr": {
+              "value": 0.00007
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 342.50253999999995
+            },
+            "tdr": {}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Season.Basics.CG3",
+      "section": [
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 137966.36325,
+              "yoy_diff": -69762.64822,
+              "yoy_percentage": -33.58348827942844,
+              "wow_diff": 10788.443680000011,
+              "wow_percentage": 8.482953421849258
+            },
+            "tdr": {
+              "value": 16.351373,
+              "yoy_diff": 2.049880999999999,
+              "wow_diff": 3.2672349999999994
+            }
+          }
+        },
+        {
+          "dimension": "Jewellery",
+          "metrics": {
+            "gmv": {
+              "value": 54853.28191000001,
+              "yoy_diff": -37785.818859999745,
+              "yoy_percentage": -40.788196934049154,
+              "wow_diff": 2247.416740000008,
+              "wow_percentage": 4.27217902934835
+            },
+            "tdr": {
+              "value": 7.859432,
+              "yoy_diff": -9.324573,
+              "wow_diff": 0.7455480000000003
+            }
+          }
+        },
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 49441.85033,
+              "yoy_diff": -25602.11967,
+              "yoy_percentage": -34.116158393539145,
+              "wow_diff": -12297.091049999995,
+              "wow_percentage": -19.917884523338415
+            },
+            "tdr": {
+              "value": 8.938304,
+              "yoy_diff": -7.95886,
+              "wow_diff": -0.13842700000000008
+            }
+          }
+        },
+        {
+          "dimension": "Glasses",
+          "metrics": {
+            "gmv": {
+              "value": 61844.966630000024,
+              "yoy_diff": -24717.10356999992,
+              "yoy_percentage": -28.55419644295884,
+              "wow_diff": -334.55627999996796,
+              "wow_percentage": -0.5380489658696996
+            },
+            "tdr": {
+              "value": 9.380487,
+              "yoy_diff": -7.691017,
+              "wow_diff": 1.6787750000000008
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 15065.93877,
+              "yoy_diff": -21035.17123,
+              "yoy_percentage": -58.267380781366555,
+              "wow_diff": 5853.832489999999,
+              "wow_percentage": 63.544995162604636
+            },
+            "tdr": {
+              "value": 13.2973,
+              "yoy_diff": -3.885110000000001,
+              "wow_diff": 0.7913130000000006
+            }
+          }
+        },
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 58177.94010000001,
+              "yoy_diff": -10699.89989999999,
+              "yoy_percentage": -15.534604308149023,
+              "wow_diff": -8369.308840000012,
+              "wow_percentage": -12.576491099648468
+            },
+            "tdr": {
+              "value": 8.729562,
+              "yoy_diff": -8.114034000000002,
+              "wow_diff": 1.027558
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Season.Spring/Summer.CG3",
+      "section": [
+        {
+          "dimension": "Flat Shoes",
+          "metrics": {
+            "gmv": {
+              "value": 527715.96173,
+              "yoy_diff": 186672.19197999936,
+              "yoy_percentage": 54.735552599843096,
+              "wow_diff": -79807.6968299998,
+              "wow_percentage": -13.136557845198368
+            },
+            "tdr": {
+              "value": 17.151092,
+              "yoy_diff": 9.300441999999999,
+              "wow_diff": -6.120365000000003
+            }
+          }
+        },
+        {
+          "dimension": "Sneakers",
+          "metrics": {
+            "gmv": {
+              "value": 528836.6916700001,
+              "yoy_diff": 171697.6798399996,
+              "yoy_percentage": 48.075867982108974,
+              "wow_diff": -54712.41070999997,
+              "wow_percentage": -9.375802393809856
+            },
+            "tdr": {
+              "value": 25.253449,
+              "yoy_diff": 9.24824,
+              "wow_diff": -3.3633319999999998
+            }
+          }
+        },
+        {
+          "dimension": "Boots",
+          "metrics": {
+            "gmv": {
+              "value": 245158.48189000005,
+              "yoy_diff": 83038.91597000009,
+              "yoy_percentage": 51.2207860283667,
+              "wow_diff": -106754.39274999988,
+              "wow_percentage": -30.335460974312905
+            },
+            "tdr": {
+              "value": 37.769182,
+              "yoy_diff": 12.980393,
+              "wow_diff": -5.7453140000000005
+            }
+          }
+        },
+        {
+          "dimension": "Flat Sandals",
+          "metrics": {
+            "gmv": {
+              "value": 279685.1366099999,
+              "yoy_diff": -74132.38339000096,
+              "yoy_percentage": -20.95215165998585,
+              "wow_diff": 58205.52361999996,
+              "wow_percentage": 26.280307624805175
+            },
+            "tdr": {
+              "value": 5.550847,
+              "yoy_diff": -1.002301,
+              "wow_diff": -0.30773899999999976
+            }
+          }
+        },
+        {
+          "dimension": "Pumps",
+          "metrics": {
+            "gmv": {
+              "value": 280285.19639999996,
+              "yoy_diff": 61482.77843999979,
+              "yoy_percentage": 28.099679616538616,
+              "wow_diff": -39420.55891000014,
+              "wow_percentage": -12.330262516474349
+            },
+            "tdr": {
+              "value": 16.193185,
+              "yoy_diff": 8.060635,
+              "wow_diff": -5.939948999999999
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Season.Autumn/Winter.Brand",
+      "section": [
+        {
+          "dimension": "Vagabond",
+          "metrics": {
+            "gmv": {
+              "value": 212.80280000000005,
+              "yoy_diff": -3477.2972,
+              "yoy_percentage": -94.23314273325927
+            },
+            "tdr": {
+              "value": 19.167501,
+              "yoy_diff": 18.300066
+            }
+          }
+        },
+        {
+          "dimension": "Dr. Martens",
+          "metrics": {
+            "gmv": {
+              "value": 619.6568299999999,
+              "yoy_diff": -3350.07317,
+              "yoy_percentage": -84.39045401072617
+            },
+            "tdr": {
+              "value": 25.469745,
+              "yoy_diff": 25.469745
+            }
+          }
+        },
+        {
+          "dimension": "Buffalo",
+          "metrics": {
+            "gmv": {
+              "value": 687.1510700000001,
+              "yoy_diff": -2084.26893,
+              "yoy_percentage": -75.20581254375014
+            },
+            "tdr": {
+              "value": 19.037231,
+              "yoy_diff": 19.037228
+            }
+          }
+        },
+        {
+          "dimension": "ALDO",
+          "metrics": {
+            "gmv": {
+              "value": 471.66306,
+              "yoy_diff": 252.22305999999998,
+              "yoy_percentage": 114.93941851986875
+            },
+            "tdr": {
+              "value": 14.895785,
+              "yoy_diff": 14.895734000000001
+            }
+          }
+        },
+        {
+          "dimension": "RAID",
+          "metrics": {
+            "gmv": {
+              "value": 175.51785999999998,
+              "yoy_diff": 64.14785999999998,
+              "yoy_percentage": 57.59886863607792
+            },
+            "tdr": {
+              "value": 3.552039,
+              "yoy_diff": 3.552039
+            }
+          }
+        },
+        {
+          "dimension": "ALOHAS",
+          "metrics": {
+            "gmv": {
+              "value": 34.49445
+            },
+            "tdr": {
+              "value": 20.006246
+            }
+          }
+        },
+        {
+          "dimension": "CHPO",
+          "metrics": {
+            "gmv": {
+              "value": 27.88821,
+              "yoy_diff": -55.22179,
+              "yoy_percentage": -66.444218505595
+            },
+            "tdr": {
+              "value": 20.003133,
+              "yoy_diff": 20.003133
+            }
+          }
+        },
+        {
+          "dimension": "Call it Spring",
+          "metrics": {
+            "gmv": {
+              "value": 199.65529999999998,
+              "yoy_diff": -59.97470000000001,
+              "yoy_percentage": -23.10006547779533
+            },
+            "tdr": {
+              "value": 10.098644,
+              "yoy_diff": 10.098644
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Season.Basics.Brand",
+      "section": [
+        {
+          "dimension": "Dr. Martens",
+          "metrics": {
+            "gmv": {
+              "value": 62208.464000000014,
+              "yoy_diff": -48352.88599999996,
+              "yoy_percentage": -43.733986605626626,
+              "wow_diff": -12774.928029999974,
+              "wow_percentage": -17.037010042022203
+            },
+            "tdr": {
+              "value": 8.921653,
+              "yoy_diff": -11.252858,
+              "wow_diff": 0.20241699999999874
+            }
+          }
+        },
+        {
+          "dimension": "Buffalo",
+          "metrics": {
+            "gmv": {
+              "value": 36336.747919999994,
+              "yoy_diff": -43799.45207999996,
+              "yoy_percentage": -54.65626281256159,
+              "wow_diff": -3335.5857499999984,
+              "wow_percentage": -8.407838514733886
+            },
+            "tdr": {
+              "value": 19.345527,
+              "yoy_diff": -4.354465999999999,
+              "wow_diff": 1.8030380000000008
+            }
+          }
+        },
+        {
+          "dimension": "Steve Madden",
+          "metrics": {
+            "gmv": {
+              "value": 112838.43867,
+              "yoy_diff": -40095.25431999998,
+              "yoy_percentage": -26.217410654316524,
+              "wow_diff": 11156.559890000019,
+              "wow_percentage": 10.972023750798776
+            },
+            "tdr": {
+              "value": 16.540719,
+              "yoy_diff": 3.4426229999999993,
+              "wow_diff": 1.8511289999999985
+            }
+          }
+        },
+        {
+          "dimension": "ALDO",
+          "metrics": {
+            "gmv": {
+              "value": 43485.306150000004,
+              "yoy_diff": 35494.956150000005,
+              "yoy_percentage": 444.2227956222194,
+              "wow_diff": -2625.3248999999923,
+              "wow_percentage": -5.69353496193367
+            },
+            "tdr": {
+              "value": 12.331156,
+              "yoy_diff": -7.668849999999999,
+              "wow_diff": 0.41768500000000053
+            }
+          }
+        },
+        {
+          "dimension": "Pilgrim",
+          "metrics": {
+            "gmv": {
+              "value": 34247.0035,
+              "yoy_diff": -23438.836499999947,
+              "yoy_percentage": -40.63187170369707,
+              "wow_diff": 2433.0039199999956,
+              "wow_percentage": 7.647588961211634
+            },
+            "tdr": {
+              "value": 0.0,
+              "yoy_diff": -17.007608
+            }
+          }
+        },
+        {
+          "dimension": "Copenhagen Studios",
+          "metrics": {
+            "gmv": {
+              "value": 30283.464279999997,
+              "yoy_diff": -1546.5057200000047,
+              "yoy_percentage": -4.858646489456335,
+              "wow_diff": 8151.36752,
+              "wow_percentage": 36.83052540567331
+            },
+            "tdr": {
+              "value": 10.591976,
+              "yoy_diff": 8.038179000000001,
+              "wow_diff": 9.105318
+            }
+          }
+        },
+        {
+          "dimension": "Vagabond",
+          "metrics": {
+            "gmv": {
+              "value": 41279.71581,
+              "yoy_diff": -7370.264189999987,
+              "yoy_percentage": -15.149572908354719,
+              "wow_diff": -7705.883529999992,
+              "wow_percentage": -15.730916093349961
+            },
+            "tdr": {
+              "value": 2.546067,
+              "yoy_diff": 1.3422489999999998,
+              "wow_diff": 1.318112
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Season.Spring/Summer.Brand",
+      "section": [
+        {
+          "dimension": "Buffalo",
+          "metrics": {
+            "gmv": {
+              "value": 364369.97719000006,
+              "yoy_diff": 133288.8171900002,
+              "yoy_percentage": 57.680521073202286,
+              "wow_diff": -17888.201179999916,
+              "wow_percentage": -4.67961241699984
+            },
+            "tdr": {
+              "value": 18.919043,
+              "yoy_diff": -1.5751120000000007,
+              "wow_diff": -5.806876000000003
+            }
+          }
+        },
+        {
+          "dimension": "Steve Madden",
+          "metrics": {
+            "gmv": {
+              "value": 375408.73339999997,
+              "yoy_diff": 110541.93066999974,
+              "yoy_percentage": 41.7349133717916,
+              "wow_diff": -6556.090680000023,
+              "wow_percentage": -1.7164121580543483
+            },
+            "tdr": {
+              "value": 22.797297,
+              "yoy_diff": 12.206583,
+              "wow_diff": -4.687984
+            }
+          }
+        },
+        {
+          "dimension": "Dr. Martens",
+          "metrics": {
+            "gmv": {
+              "value": 402743.1680199999,
+              "yoy_diff": 90358.35554999963,
+              "yoy_percentage": 28.92533565750004,
+              "wow_diff": -80786.84950000001,
+              "wow_percentage": -16.707721666247636
+            },
+            "tdr": {
+              "value": 23.646079,
+              "yoy_diff": 12.438103,
+              "wow_diff": -8.189188000000001
+            }
+          }
+        },
+        {
+          "dimension": "PARFOIS",
+          "metrics": {
+            "gmv": {
+              "value": 24001.291080000006,
+              "yoy_diff": -66643.00558999983,
+              "yoy_percentage": -73.52145478343856,
+              "wow_diff": -3710.1712299999926,
+              "wow_percentage": -13.388579745433118
+            },
+            "tdr": {
+              "value": 32.389657,
+              "yoy_diff": 25.391975,
+              "wow_diff": -4.074193000000001
+            }
+          }
+        },
+        {
+          "dimension": "ALOHAS",
+          "metrics": {
+            "gmv": {
+              "value": 58753.93175000002,
+              "yoy_diff": 43956.68175000002,
+              "yoy_percentage": 297.05980334183727,
+              "wow_diff": -5446.4630799999795,
+              "wow_percentage": -8.483535178283544
+            },
+            "tdr": {
+              "value": 15.714085,
+              "yoy_diff": 3.061153000000001,
+              "wow_diff": -0.2450929999999989
+            }
+          }
+        },
+        {
+          "dimension": "ALDO",
+          "metrics": {
+            "gmv": {
+              "value": 437357.80886999995,
+              "yoy_diff": 27790.47607999842,
+              "yoy_percentage": 6.785325355586282,
+              "wow_diff": -46476.98805000016,
+              "wow_percentage": -9.605962271805126
+            },
+            "tdr": {
+              "value": 14.821095,
+              "yoy_diff": 4.6568380000000005,
+              "wow_diff": -5.040374
+            }
+          }
+        },
+        {
+          "dimension": "Vagabond",
+          "metrics": {
+            "gmv": {
+              "value": 253220.54129999995,
+              "yoy_diff": 27241.99606999979,
+              "yoy_percentage": 12.055124986433107,
+              "wow_diff": -42961.18126000001,
+              "wow_percentage": -14.505007563826636
+            },
+            "tdr": {
+              "value": 16.589312,
+              "yoy_diff": 14.385397,
+              "wow_diff": -7.188725999999999
+            }
+          }
+        },
+        {
+          "dimension": "Copenhagen Studios",
+          "metrics": {
+            "gmv": {
+              "value": 93107.54466999999,
+              "yoy_diff": 32473.16466999999,
+              "yoy_percentage": 53.55569673508659,
+              "wow_diff": -13507.00003000001,
+              "wow_percentage": -12.669003153375574
+            },
+            "tdr": {
+              "value": 18.551336,
+              "yoy_diff": 11.895868,
+              "wow_diff": -7.150008
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Markets",
+      "section": [
+        {
+          "dimension": "DE",
+          "metrics": {
+            "gmv": {
+              "value": 818894.9023699997,
+              "yoy_diff": 113757.30016000196,
+              "yoy_percentage": 16.132638481265364,
+              "wow_diff": -57695.2427100006,
+              "wow_percentage": -6.581780896559721
+            },
+            "tdr": {
+              "value": 19.361986,
+              "yoy_diff": 10.657620000000001,
+              "wow_diff": -4.345520999999998
+            }
+          }
+        },
+        {
+          "dimension": "FR",
+          "metrics": {
+            "gmv": {
+              "value": 297486.77693,
+              "yoy_diff": 62369.36692999967,
+              "yoy_percentage": 26.526902848240624,
+              "wow_diff": 89928.51374999995,
+              "wow_percentage": 43.32687717280211
+            },
+            "tdr": {
+              "value": 18.066168,
+              "yoy_diff": 7.495199000000001,
+              "wow_diff": 6.903531000000001
+            }
+          }
+        },
+        {
+          "dimension": "IT",
+          "metrics": {
+            "gmv": {
+              "value": 253928.55504999997,
+              "yoy_diff": 28159.077190000244,
+              "yoy_percentage": 12.472490726785383,
+              "wow_diff": -4149.717330000072,
+              "wow_percentage": -1.6079297539197481
+            },
+            "tdr": {
+              "value": 28.008236,
+              "yoy_diff": 11.410523999999999,
+              "wow_diff": 1.6365370000000006
+            }
+          }
+        },
+        {
+          "dimension": "BE",
+          "metrics": {
+            "gmv": {
+              "value": 177508.40902,
+              "yoy_diff": -27947.56744000007,
+              "yoy_percentage": -13.602703567711083,
+              "wow_diff": 13139.699820000009,
+              "wow_percentage": 7.9940396709035
+            },
+            "tdr": {
+              "value": 18.537398,
+              "yoy_diff": 3.9035650000000004,
+              "wow_diff": -6.843166
+            }
+          }
+        },
+        {
+          "dimension": "ES",
+          "metrics": {
+            "gmv": {
+              "value": 108000.48302999999,
+              "yoy_diff": 27897.493030000085,
+              "yoy_percentage": 34.82703083867421,
+              "wow_diff": 17301.013139999995,
+              "wow_percentage": 19.07509841125048
+            },
+            "tdr": {
+              "value": 21.518551,
+              "yoy_diff": 3.138983999999997,
+              "wow_diff": -0.3086730000000024
+            }
+          }
+        },
+        {
+          "dimension": "PL",
+          "metrics": {
+            "gmv": {
+              "value": 151918.33438000004,
+              "yoy_diff": 14979.58017000006,
+              "yoy_percentage": 10.93889035022795,
+              "wow_diff": -70024.03467999998,
+              "wow_percentage": -31.55054844939032
+            },
+            "tdr": {
+              "value": 17.933726,
+              "yoy_diff": 6.866650999999999,
+              "wow_diff": -15.545721999999998
+            }
+          }
+        },
+        {
+          "dimension": "NL",
+          "metrics": {
+            "gmv": {
+              "value": 184618.33724999995,
+              "yoy_diff": 5251.886959999858,
+              "yoy_percentage": 2.928020792912273,
+              "wow_diff": -62394.54507000008,
+              "wow_percentage": -25.259632001366327
+            },
+            "tdr": {
+              "value": 18.855734,
+              "yoy_diff": 10.268117000000002,
+              "wow_diff": -9.371120999999999
+            }
+          }
+        },
+        {
+          "dimension": "RO",
+          "metrics": {
+            "gmv": {
+              "value": 37214.01971,
+              "yoy_diff": 1030.689710000006,
+              "yoy_percentage": 2.8485208796426593,
+              "wow_diff": -32035.412919999995,
+              "wow_percentage": -46.26090309095432
+            },
+            "tdr": {
+              "value": 26.264539,
+              "yoy_diff": 6.584675999999998,
+              "wow_diff": -13.865085
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

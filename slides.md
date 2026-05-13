@@ -2,6 +2,7 @@
 marp: true
 theme: default
 paginate: true
+html: true
 style: |
   section {
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -70,7 +71,8 @@ style: |
   table { font-size: 22px; width: 100%; }
   th { background: #0057b8; color: white; }
   code { background: #f0f4f8; padding: 2px 6px; border-radius: 3px }
-  pre { background: #f0f4f8; padding: 16px; border-radius: 6px; font-size: 13px; }
+  pre { background: #f0f4f8; padding: 18px; border-radius: 6px; font-size: 13px; }
+  .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 ---
 
 <!-- _class: cover -->
@@ -105,6 +107,11 @@ One report, three data sources
 - **Shared dimensions:** Org Unit levels, Country, Brand, Season, Commodity Group levels, ...
 - **Hundreds of reports** are generated for various Org Units, 
 each drills down into many dimensions and combinations of dimensions.
+
+<!--
+- Show example report list and a specific report
+- Discuss dimensions and metrics
+-->
 
 ---
 
@@ -198,36 +205,75 @@ GROUP BY ALL
 
 # Serialization
 
-Respecting the token budget
+Passing Data to LLM
 
 ---
 
 # Text Is Still the Language of LLMs
 
 - Even multi-modal models need structured data **as text**
-- A dozen datasets to include in each prompt
+- Pass a dozen of datasets in the prompt
 - JSON is the default — but is it the right choice?
-- Every token costs money and competes for the model's attention
-
-![bg right:35%](img/token-budget.png)
 
 ---
 
 # JSON Has Terrible Token Efficiency
 
-Every row repeats all attribute names:
+<div class="columns">
+
+<div>
 
 ```json
-[
-  {"product": "Milk", "region": "North", "units": 120, "revenue": 240.0},
-  {"product": "Milk", "region": "South", "units": 98,  "revenue": 196.0},
-  {"product": "Bread","region": "North", "units": 200, "revenue": 180.0}
-]
+{
+  "args": {
+    "scope_type": "Unit",
+    "scope_value": "YD Trend 1",
+    "year": 2026,
+    "week": 18
+  },
+  "sections": [
+    {
+      "name": "Overall",
+      "section": [
+        {
+          "dimension": "Overall",
+          "metrics": {
+            "gmv": {
+              "value": 3129813.407360002,
+              "yoy_diff": 245847.53500998486,
+              "yoy_percentage": 8.524633989848656,
+              "wow_diff": -232382.71028999984,
+              "wow_percentage": -6.911634603052934
+            },
+            "tdr": {
+              "value": 18.17226,
+              "yoy_diff": 6.936165000000001,
+              "wow_diff": -4.989954999999998
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "BusinessChannel",
+      "section": [
+        ...
+      ]
+    }
+  ]
+}
 ```
 
-- Structure adds noise: `{ } " : ,`
-- A 100-row dataset can be **70% structural repetition**
+</div>
+
+<div>
+
+- Every row repeats all attribute names
 - LLMs spend attention budget on format, not content
+
+</div>
+
+</div>
 
 ---
 
@@ -235,17 +281,65 @@ Every row repeats all attribute names:
 
 Same data in TOON format:
 
-```
-product  | region | units | revenue
-Milk     | North  |   120 |  240.0
-Milk     | South  |    98 |  196.0
-Bread    | North  |   200 |  180.0
+```text
+Arguments:
+  scope_type: Unit
+  scope_value: YD Trend 1
+  year: 2026
+  week: 17
+BusinessChannel[2]{dimension,gmv,gmv_yoy,gmv_wow,gmv_share,gmv_share_yoy_diff,gmv_share_wow_diff,tdr,tdr_yoy_diff,tdr_wow_diff}:
+  Wholesale,2.9M,23.3,4,84.5,0,0.3,23.2,11.5,0.1
+  Partner,528.8K,23.3,1.8,15.5,0,-0.3,null,null,null
+Brands.Top[5]{dimension,gmv,gmv_yoy,gmv_wow,tdr,tdr_yoy_diff,tdr_wow_diff,stock,stock_yoy}:
+  Dr. Martens,569.6K,42.3,-6.4,29.7,16.2,1.6,5.5M,20.7
+  ALDO,532.9K,29.3,4.6,19,8.2,0.4,2.4M,8.2
+  Steve Madden,491.3K,21.5,9.6,25.2,11.7,0.8,2.6M,7.5
+  Buffalo,426.9K,38.7,2.2,23.4,-0.7,2.5,1.1M,-2.1
+  Vagabond,346.0K,28.2,4.8,21.1,18.6,-3,1.5M,-38.8
+...
 ```
 
-- Header row defines field names — like a CSV
+- Header: `DatasetName[RowCount]{field,name,list}`
 - Rows are compact value sequences
 - Typed, structured, and human-readable
 - **~70% smaller** than equivalent JSON
+
+---
+
+# TOON: Token-Oriented Object Notation
+
+## A compact, human-readable encoding of the JSON data model for LLM prompts.
+
+- Homepage: https://toonformat.dev/
+- Specification: https://github.com/toon-format/spec
+- Python Library: https://toons.readthedocs.io/ (Fast, implemented in Rust, Contributed with a bugfix)
+
+<div class="columns">
+
+<div>
+
+### Much Smaller
+
+```text
+132.4K input.json
+  9.6K input.toon
+```
+
+</div>
+
+<div>
+
+### More Accurate
+
+```text
+claude-haiku-4-5-20251001
+→ TOON           ████████████░░░░░░░░    59.8% (125/209)
+  JSON           ███████████░░░░░░░░░    57.4% (120/209)
+```
+
+</div>
+
+</div>
 
 ---
 
