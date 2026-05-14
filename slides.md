@@ -86,18 +86,13 @@ Lessons from building a retail market analytics platform
 
 # Key Topics
 
-### Business Context
-- What are we building?
-
-### Data Engineering
+- **Business Context** — What are we building?
+<br>
 - **Semantic Layer** — How to deal with business metrics?
-
-### Prompt Engineering
 - **Serialization** — Passing Data to the LLM
-- **Report Structure** - Moving Insights Ahead
-
-### Architecture
-- Let's see some diagrams
+- **Report Structure** — Moving Insights Ahead
+<br>
+- **Architecture** — Let's see some diagrams
 
 <!--
 This talk explores three practical problems encountered in production: 
@@ -145,6 +140,7 @@ One report, three data sources
 | **Onsite** | Shared (*) | Page Views, Conversion Rate, ... |
 
 - **Shared dimensions:** Org Unit levels, Country, Brand, Season, Commodity Group levels, ...
+- **Business metrics** in each data source.
 - **Hundreds of reports** are generated for various Org Units, 
 each drills down into many dimensions and combinations of dimensions.
 
@@ -273,7 +269,7 @@ Passing Data to the LLM
 
 ---
 
-# Text Is Still the Language of LLMs
+# Data as Text
 
 - Even multi-modal models need structured data **as text**
 - How to pass a dozen datasets in a prompt?
@@ -281,7 +277,7 @@ Passing Data to the LLM
 
 ---
 
-# JSON Has Terrible Token Efficiency
+# JSON Serialization
 
 <div class="columns">
 
@@ -331,6 +327,8 @@ Passing Data to the LLM
 </div>
 
 <div>
+
+## Terrible token effiiciency
 
 - Every row repeats all attribute names
 - LLMs spend attention budget on format, not content
@@ -433,16 +431,14 @@ Moving Insights Ahead
 
 ---
 
-# Let's start with *"Conclusions and Insights"*
+![bg left:30% 90%](./img/structure-original.png)
 
-The report generated *Conclusions and Insights* at the end.
-
-**Customer:** "We'd like it right after the overview."
+# Stakeholders: Let's move Conclusions Ahead
 
 Sounds trivial — it wasn't:
 
-- We use a single LLM call.  
-- Conclusions and Insights depend on the full report context.  
+- Report is generated as a single LLM request.
+- Conclusions are based on the previous chapters.
 - If generated earlier, they become less deep and less accurate.
 
 <!--
@@ -459,11 +455,11 @@ it loses context and becomes more shallow.
 
 # How Would You Solve This?
 
-| Approach | Drawback |
-|---|---|
-| Change the system prompt | Conclusions written before findings — **less insightful** |
-| Two-pass generation | Slower and **more expensive** |
-| Text / Markdown parsing | LLM output is unpredictable — **brittle** |
+| Approach | Solution | Drawback |
+|---|---|---|
+| **Prompt Engineering** | Generate conclusions before findings | Less insightful and less accurate |
+| **Two-step Generation** | Generate report without conclusions, then generate new report with conclusions | Slower and more expensive |
+| **Text Parsing** | Parse and reorder the resulting markdown | Brittle: LLM output is unpredictable |
 
 ---
 
@@ -533,7 +529,7 @@ agent = Agent(
 
 - Sections always reliably separated — no parsing heuristics
 - Conclusion quality **preserved** (written after full report generation)
-- Zero performance penalty — single LLM call
+- Almost zero performance penalty — single LLM call
 - Order is a **presentation** concern, not a generation concern
 
 ---
@@ -550,13 +546,13 @@ Let's see some diagrams
 
 # Component Diagram
 
-![bg right 100%](./img/diagram-component.png)
+![bg right:65% 90%](./img/diagram-component.png)
 
 ---
 
 # Deployment Diagram
 
-![bg right 100%](./img/diagram-deployment.png)
+![bg right:65% 85%](./img/diagram-deployment.png)
 
 ---
 
@@ -566,6 +562,3 @@ Let's see some diagrams
 
 # Questions?
 
----
-
-*Thank you*
