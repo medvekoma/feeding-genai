@@ -67,7 +67,7 @@ style: |
     font-size: 52px;
   }
   h1 { color: #0057b8; }
-  h2 { color: #444; font-size: 26px; margin-top: 0; }
+  h2 { color: #AAA; font-size: 26px; margin-top: 0; }
   table { font-size: 22px; width: 100%; }
   th { background: #0057b8; color: white; }
   code { background: #f0f4f8; padding: 2px 6px; border-radius: 3px }
@@ -84,13 +84,20 @@ Lessons from building a retail market analytics platform
 
 ---
 
-# Agenda
+# Key Topics
 
-1. **Business Context** — What are we building?
-2. **Semantic Layer** — How to deal with business metrics?
-3. **Serialization** — Passing Data to the LLM
-4. **Report Structure** - Moving Insights Ahead
-5. **Architecture** - Let's see some diagrams
+### Business Context
+- What are we building?
+
+### Data Engineering
+- **Semantic Layer** — How to deal with business metrics?
+
+### Prompt Engineering
+- **Serialization** — Passing Data to the LLM
+- **Report Structure** - Moving Insights Ahead
+
+### Architecture
+- Let's see some diagrams
 
 <!--
 This talk explores three practical problems encountered in production: 
@@ -102,15 +109,40 @@ This talk explores three practical problems encountered in production:
 
 ---
 
+<!-- _class: section-header -->
+
+<span class="number">01</span>
+
 # Business Context
+
+## Create Hundreds of Weekly Trade Reports
+
+- Gather Data from Various Sources
+- Compare with Previous Week, Previous Year
+- Drill Down into Various Aspects (Dimensions)
+- Generate Insights
+
+---
+
+<!-- _class: section-header -->
+
+<span class="number">02</span>
+
+# Semantic Layer
+
+Define business metrics once, use everywhere
+
+---
+
+# Data Sources
 
 One report, three data sources
 
 | Data Source | Dimensions | Metrics |
 |---|---|---|
-| **Sales** | Shared (*) | GMV (Gross Merchandise Value), TRD (Total Discount Rate), ... |
-| **Stock** | Shared (*) | Stock Value, Stock Quantity, ... |
-| **Site**  | Shared (*) | Page Views, Conversion Rate, ... |
+| **Sales**  | Shared (*) | GMV (Gross Merchandise Value), TDR (Total Discount Rate), ... |
+| **Stock**  | Shared (*) | Stock Value, Stock Quantity, ... |
+| **Onsite** | Shared (*) | Page Views, Conversion Rate, ... |
 
 - **Shared dimensions:** Org Unit levels, Country, Brand, Season, Commodity Group levels, ...
 - **Hundreds of reports** are generated for various Org Units, 
@@ -120,16 +152,6 @@ each drills down into many dimensions and combinations of dimensions.
 - Show example report list and a specific report
 - Discuss dimensions and metrics
 -->
-
----
-
-<!-- _class: section-header -->
-
-<span class="number">01</span>
-
-# Semantic Layer
-
-Define business metrics once, use everywhere
 
 ---
 
@@ -143,6 +165,7 @@ Define business metrics once, use everywhere
 SELECT
   brand_name,
   SUM(gmv_aft_ret_provision) AS gmv,
+  ---- Beginning of TDR ---
   SUM(
     nmv_discount_market_aret_provision
     + nmv_discount_risk_aret_provision
@@ -153,6 +176,7 @@ SELECT
     SUM(nmv_bdisc_aret_provision) 
     filter (where partner_flag = 0)
   , 0) * 100 AS tdr
+  ---- End of TDR ---
 FROM
   sales_data
 WHERE
@@ -241,7 +265,7 @@ GROUP BY ALL
 
 <!-- _class: section-header -->
 
-<span class="number">02</span>
+<span class="number">03</span>
 
 # Serialization
 
@@ -267,7 +291,7 @@ Passing Data to the LLM
 {
   "args": {
     "scope_type": "Unit",
-    "scope_value": "YD Trend 1",
+    "scope_value": "Unit 1",
     "year": 2026,
     "week": 18
   },
@@ -324,7 +348,7 @@ Same data in TOON format:
 ```text
 Arguments:
   scope_type: Unit
-  scope_value: YD Trend 1
+  scope_value: Unit 1
   year: 2026
   week: 18
 BusinessChannel[2]{dimension,gmv,gmv_yoy,gmv_wow,gmv_share,gmv_share_yoy_diff,gmv_share_wow_diff,tdr,tdr_yoy_diff,tdr_wow_diff}:
@@ -352,7 +376,7 @@ Brands.Top[5]{dimension,gmv,gmv_yoy,gmv_wow,tdr,tdr_yoy_diff,tdr_wow_diff,stock,
 
 - Homepage: https://toonformat.dev/
 - Specification: https://github.com/toon-format/spec
-- Python Library: https://toons.readthedocs.io/ (Fast, implemented in Rust, Contributed with a bugfix)
+- Python Library: [toons](https://toons.readthedocs.io/) (Fast, implemented in Rust)
 
 <div class="columns">
 
@@ -381,6 +405,10 @@ claude-haiku-4-5-20251001
 
 </div>
 
+## Open-source Contribution
+> Toons library contained an error for certain unicode characters. 
+> Fixed with Claude without knowing Rust.
+
 <!--
 
 Bugfix:
@@ -397,7 +425,7 @@ Lessons learned:
 
 <!-- _class: section-header -->
 
-<span class="number">03</span>
+<span class="number">04</span>
 
 # Report Structure
 
@@ -512,13 +540,27 @@ agent = Agent(
 
 <!-- _class: section-header -->
 
-<span class="number">04</span>
+<span class="number">05</span>
 
 # Architecture
 
 Let's see some diagrams
 
 ---
+
+# Component Diagram
+
+![bg right 100%](./img/diagram-component.png)
+
+---
+
+# Deployment Diagram
+
+![bg right 100%](./img/diagram-deployment.png)
+
+---
+
+
 
 <!-- _class: takeover -->
 
