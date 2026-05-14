@@ -73,6 +73,19 @@ style: |
   code { background: #f0f4f8; padding: 2px 6px; border-radius: 3px }
   pre { background: #f0f4f8; padding: 18px; border-radius: 6px; font-size: 18px; }
   .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .demo-label {
+    position: absolute;
+    bottom: 24px;
+    right: 80px;
+    background: #e74c3c;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
 ---
 
 <!-- _class: cover -->
@@ -117,6 +130,8 @@ This talk explores three practical problems encountered in production:
 - Drill Down into Various Aspects (Dimensions)
 - Generate Insights
 
+<div class="demo-label">Demo</div>
+
 ---
 
 <!-- _class: section-header -->
@@ -145,8 +160,10 @@ One report, three data sources
 each drills down into many dimensions and combinations of dimensions.
 
 <!--
-- Show example report list and a specific report
-- Discuss dimensions and metrics
+The application needs to aggregate business metrics across several dimensions. The traditional method is
+to write custom SQL queries that contain the expressions associated with each metric.
+
+The solution is brittle, and metric definitions can diverge between different applications.
 -->
 
 ---
@@ -256,6 +273,8 @@ GROUP BY ALL
 </div>
 
 > Documentation can also be added => Data Catalog
+
+<div class="demo-label">Demo</div>
 
 ---
 
@@ -383,7 +402,7 @@ Brands.Top[5]{dimension,gmv,gmv_yoy,gmv_wow,tdr,tdr_yoy_diff,tdr_wow_diff,stock,
 ### Much Smaller
 
 ```text
-132.4K input.json
+112.4K input.json
   9.6K input.toon
 ```
 
@@ -405,13 +424,13 @@ claude-haiku-4-5-20251001
 
 ## Open-source Contribution
 > Toons library contained an error for certain unicode characters. 
-> Fixed with Claude without knowing Rust.
+> Fixed with Claude without knowing Rust. Wasn't trivial.
+
+<div class="demo-label">Demo</div>
 
 <!--
 
 Bugfix:
-- Failed on certain unicode characters
-- Opensource client library: Rust code with a python wrapper
 - Created a unit test that demonstrates the issue
 - Asked Claude to fix it
 
